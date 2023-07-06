@@ -1,0 +1,86 @@
+
+<html><head>
+<title>Threat Summary</title>
+</head><body>
+<h2 id=02>Threat Summary</h2>
+<tr>
+<h2>Threat [C/C++ and memory safety]</h2>
+
+
+<h3>Caesar (Government)</h3>
+<p>An information sheet on <a href="https://media.defense.gov/2023/Apr/27/2003210083/-1/-1/0/CSI_SOFTWARE_MEMORY_SAFETY_V1.1.PDF">Software Memory Safety</a> preferred certain computer programming languages and discouraged C/C++. One reason the sheet was considered here was to minimize the quantity of languages being learned since one individual could become overwhelmed with learning too many. It was assumed most programmers are not fluent in all the programming languages at the same time.
+<br>Without any information sheets, there are just a lot of programming languages and one can find they are learning them beyond their memory capacity. Sometimes there are freeware or open source tools supplied, and when used, those tools can guide into different languages depending on which tool. Maybe this is just how the market works - producing as many solutions as possible.</p>
+
+
+<h3>Application</h3>
+<p>One of the SWORD engines was already in Java, a language the information sheet liked. This page gave attention to the Swift language since 1) it was a relatively newer language in the sheet and 2) because of advertised backward compatibility to C / C++. An individual coming from C / C++ might try swift for such reasons when they were not yet fluent in the other languages like (Java).</p>
+
+<h3>Perceived challenges</h3>
+<p>Would using swift be an early plan that was relatively subjective, involved numerous assumptions, and was overly optimistic? This was to be determined. If a challenge was perceived and related to something about Caesar, it was listed below. If a challenge was more related to the private sector or academics, it may be moved to another section on agreements.</p>
+
+
+<table border=1><caption>Perceived challenges</caption>
+
+<tr>
+	<th>challenge / K-12</th>
+	<th>challenge / other</th>
+	<th>Newbie scope</th>
+	<th>Comments</th>
+</tr>
+
+
+<tr>
+	<td>Collaborating Around Computing</td>
+	<td>Software development team stability</td>
+	<td>No</td>
+	<td>Reference discontinuity (part 1/2).
+	<br>In 1998, a document on <a href="https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=114847">software development and documentation (MIL-STD-498 notice 1)</a> was canceled. It handed effort off to IEEE/EIA 12207. The <a href="https://en.m.wikipedia.org/wiki/ISO/IEC_12207">Wikipedia article</a> for IEEE/EIA 12207 was not observed to comment software memory safety. Also, the works cited in the information sheet did not refer to the IEEE/EIA. Discussion in the Wikipedia and works cited that are able to cross-reference avoid the perception of discontinuity.
+	</td>
+	</tr>
+
+
+<tr>
+	<td>Collaborating Around Computing</td>
+	<td>Software development team stability</td>
+	<td>No</td>
+	<td>Reference discontinuity (part 2/2).
+	<br>Goals for <a href="https://www.cde.ca.gov/be/st/ss/documents/csstandards.pdf">school grades K-12</a> identified network safety, but memory safety was not observed. Including computer memory safety goals for grades K-12 gives a bunch more folks a way to encounter the goal. It is possible some folks in open source software may encounter software licenses that prevent military applications <a href="https://softwareengineering.stackexchange.com/questions/199055/open-source-licenses-that-explicitly-prohibit-military-applications">(one blog)</a> thus goals like K-12 allows them to receive it differently, like from public school or home-school.
+	<br>Discontinuity of references is OK for some people who are not involved in Caesar's global issues. The information sheet's term 'malicious actor' reminded of a definition that allows for disconnection - the bible word sinner, of which everyone is according to Romans 3:23. Some sermons that teach talk about sin and disconnecting from it include <a href="https://m.youtube.com/watch?v=YkPgUWmRM0k">Whatever happened to sin? (1 Corinthians 5)</a> and <a href="https://www.faithtoyou.com/titus-21115-kornoff">lessons learned (Titus 2:11-15)</a>.
+	</td>
+	</tr>
+
+
+<tr>
+	<td>-</td>
+	<td>Desired Software Performance is a Moving Target.</td>
+	<td>-</td>
+	<td>Interim period during shift between languages:
+	<br>One paragraph began with the sentence "It is not trivial to shift a mature software development infrastructure from one computer language to another." The impression of the guide was mostly a plan for a binary situation sometime in the future with old languages being done and new languages replacing them. Such a binary situation omits the interim time during a shift. For example, a list of some old programs/languages suitable for a shift was not observed. One time an error message was observed for the online catalog to the Library of Congress web interface. The web interface said "Notice: Search and other functions of our website are experiencing technical difficulties. We are working on the problem - thanks for your patience". Was this message insignificant or does it mean there is a software component ready for a shift?
+	<br>Caesar is predicted to limit involvement in specific programs if they are not directly being operated, but there could be some common programs used that currently run in C /C ++. Some list would then allow a decision on the feasibility of shifting them as some may be more straightforward to shift and others hard due to minimal documentation and confusing code. 
+	</td>
+	</tr>
+
+
+<tr>
+	<td>-</td>
+	<td>Software Risks not thoroughly identified</td>
+	<td>-</td>
+	<td>Scope
+	<br>A plan for the overarching software community sounds great since it is simple / not complex. The information sheet has disclaimer of endorsement at the end. A generic disclaimer is fine, but are any details already known? One possibility is some languages being limited to a subset of platforms. If there are limitations, a reader may not interpret the word "overarching" accurately and try to apply a language on a limited platform.
+	</td>
+	</tr>
+
+
+<tr>
+	<td>-</td>
+	<td>Desired Software Performance is a Moving Target</td>
+	<td>-</td>
+	<td>C/C++ tool enhancements. 
+	<br>The information sheet discouraged C / C++. Would it be reasonable to include a section on why the C / C++ tools like gcc, g++, clang will not be able to change and add safety later on? The information sheet went into some technical concepts, but nothing was observed in this area. After initially trying swift, it was more proactive in warning of unused variables which might allocate a little memory. However, adding a warning option to g++ (-Wall) resulted in the C++ producing a similar warning as swift. Also, initial coding in swift used an ampersand (&) symbol just like C/C++ to pass by reference. A swift label of 'inout' also went with the variable passed by reference.
+	</td>
+	</tr>
+
+</table>
+
+
+</body></html>
