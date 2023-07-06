@@ -19,13 +19,14 @@ Pieces of documents that were not yet observed on the crosswire wiki:
 - [memory safety/threat](https://sword-2.github.io/sword-wiki/1b\_dev/02\_threat\_sum/02.html)
 - [performance parameters](https://sword-2.github.io/sword-wiki/1b\_dev/05\_dev\_KPPs/05.html)
 
-[comment]: <> (Source code analysis for selected files to recognize and define computational problems)
-[comment]: <> (- [xml2gbs](https://sword-2.github.io/sword-wiki/CDE/CP-Computational\_Problems/utilities/xml2gbs))
+<!--
+Source code analysis for selected files to recognize and define computational problems
+- [xml2gbs](https://sword-2.github.io/sword-wiki/CDE/CP-Computational\_Problems/utilities/xml2gbs)
 
-[comment]: <> (Data and Analysis (DA) for some existing models of SWORD modules)
-[comment]: <> (- [BaptistConfession1646](https://sword-2.github.io/sword-wiki/CDE/CC-DA/genbooks/BaptistConfession1646))
-[comment]: <> (- [OSISGenbooksTutorial](https://sword-2.github.io/sword-wiki/CDE/CC-DA/genbooks/OSISGenbooksTutorial))
-
+Data and Analysis (DA) for some existing models of SWORD modules
+- [BaptistConfession1646](https://sword-2.github.io/sword-wiki/CDE/CC-DA/genbooks/BaptistConfession1646)
+- [OSISGenbooksTutorial](https://sword-2.github.io/sword-wiki/CDE/CC-DA/genbooks/OSISGenbooksTutorial)
+-->
 
 
 ## Disclaimer
