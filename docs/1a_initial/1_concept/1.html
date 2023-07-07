@@ -458,160 +458,128 @@ Lightneing Study Bible
 
 
 
-<h3 id=1c>Agreements (placeholder)</h3>
+<h3 id=c>Agreements (placeholder)</h3>
 
-No agreements were made - the tables just identify some tools, resources, or perceived status.
-
-<!--
-
-<p>More goals were circulating, thus someone might not keep track of all of them (not multi-task between them). According to an <a href="https://www.computerweekly.com/news/450296755/Why-Apple-is-wooing-open-source-developers-with-Swift">article</a>, the GitHub CEO said "Everyone know[s] Apple wants to make Swift a great programming platform so it can continue to sell more iPhones."</p>
+No agreements were made. The tables just identify some existing goals, groups, and perceived inconsistencies while considering to code.
 
 
-		Blog stating lack of ability to append to a file.
-			host/proxy: stackoverflow.com
-			Title: Best way to append a string to a text file in Swift
-			OP: Greg
-			Date: Jan 13, 2021
-
-<tr>
-	<td>Safety, Law, and Ethics</td>
-	<td>Unrealistic expectation</td>
-	<td>No</td>
-	<td>Caesar's plan for the overarching software community was great, but different than separate memory safety plans on Apple, Microsoft, Linux, etc operating systems. An instance for an Apple unique memory safety plan was observed.
-	<br>The documentation for a simple <a href="https://developer.apple.com/documentation/swift/print(_:separator:terminator:)">print function</a> does not have a section on limitations, and at the top identifies the scope of Apple Operating Systems (vs the overarching community). Inconsistent output for print statements was observed in a swift test case run in a Linux terminal. After this observation, several bugs on print anomalies were found on the internet: <a href="https://github.com/apple/swift-corelibs-xctest/issues/422">XCTest: Stdio not output at correct point</a>, <a href="https://github.com/apple/swift-corelibs-xctest/issues/405">SR-752</a>, <a href="https://github.com/apple/swift/issues/43740">SR-1127</a>, <a href="https://github.com/apple/swift-package-manager/issues/4752">SR-9133</a>, <a href="https://stackoverflow.com/questions/57095407/swift-print-doesnt-appear-in-stdout-but-3rd-party-c-library-logs-do-when-runn">swift "print" doesn't appear in STDOut but 3rd party c library logs do when running in docker on ECS</a>, and <a href="https://stackoverflow.com/questions/66879547/xcode-unit-testing-cant-get-print-commands-to-display-consistently-while-unit">Xcode Unit Testing - Can't get print commands to display consistently while unit tests running</a>.
-	<br>Unexpected program output was a perceived memory safety risk since a Linux sub-shell can assign the (print) output to variables.
-</tr>
-
-
-
-<tr>
-	<td>Recognize & define computational problems</td>
-	<td>Effective Software Processes not Established or Consistently Applied</td>
-	<td>-</td>
-	<td>A swift post titled <a href="https://forums.swift.org/t/cannot-call-cfstreamcreatepairwithsocket-on-linux/1824">Cannot call CFStreamCreatePairWithSocket on Linux</a> identifies 3 failures to dynamically link. These 3 failures were also observed when compiling/linking on Linux for a different program. Reporting failures is good, but while there, some attention maybe justified to ensure there is no memory safety issue that exists.</td>
-</tr>
-
-
-
-<tr>
-	<td>Recognize & define computational problems</td>
-<td>Software size control</td>
-	<td>No</td>
-<td>A slow adjustment of code to have a new safe language which runs the older unsafe language may make the total lines of code increase. Any goals to limit software size may need to be sacrificed during the time of adjustment when the total lines increase.</td>
-</tr>
-
-<tr>
-	<td>Recognize & define computational problems</td>
-	<td>Software risks not thoroughly identified</td>
-	<td>-</td>
-	<td>When swift ran C++, apparently swift did not understand C++ exceptions to communicate problems. This was observed on a web page that had a statement about [Apple swift not implementing Experimental support for Exceptions](https://github.com/apple/swift/blob/main/docs/CppInteroperability/CppInteroperabilityStatus.md).</td>
-</tr>
-
-One for Microsoft, although git is very capable, the complexity could cause some to try simpler tools.
-<tr>
-	<td>Equity</td>
-	<td>Software risks not thoroughly identified</td>
-	<td>No</td>
-	<td>The Swift package manager doesn't work with the subversion (SVN) version control system according to some <a href="https://forums.swift.org/t/using-swift-package-manager-with-version-control/61738">websites</a>. But it does work with git version control. The preference for git is inconsistent with the Core Practices (CP) for grades K-12 on Equity (towards those affiliated with SVN).</td>
-</tr>
-
-<tr>
-	<td>Safety, Law, and Ethics</td>
-	<td>Software risks not thoroughly identified</td>
-	<td>No</td>
-<td>The K-12 core concept of Impacts of Computing included Safety, Law, and Ethics. If a regular person or one of Caesar's inspectors watched a software build that runs older C/C++ code and observes a bunch of warnings scroll across the screen, the person or inspector is less likely to have peace of mind about the goals for safety, law, and ethics. According to one <a href="https://stackoverflow.com/questions/8598354/why-is-msvc10-ignoring-my-pragma-warningdisable-4251">article</a>, a bunch of warnings might occur when building with some compilers according to the following lines of code found in the xml2gbs.cpp source file of the SWORD project.
-<br>#ifdef _MSC_VER
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#pragma warning( disable: 4251 )
-<br>#endif
-</td>
-</tr>
-
-
-What about swift having something like C's SWIG?
-
-
-
-Apple libraries to be competitive with existing in other languages:
-<tr>
-	<td>Recognize & define computational problems</td>
-	<td>Effective Software Processes not Established or Consistently Applied</td>
-	<td>No</td>
-	<td>The library of Congress was estimated to format catalogs, books, files in both XML format and MAchine-Readable Cataloging (MARC) 21. The library's <a href="https://www.loc.gov/cds/products/MDSConnect-books_all.html">MDSConnect page</a> lists both UTF8 (for MARC 21) and XML. According to a Wikipedia on <a href="https://wiki.code4lib.org/Working_with_MARC#MARC_Programming_Libraries">Working with MARC</a>, Apple swift was not currently listed as having a software library to process MARC 21 records. On the Wikipedia, C++ was listed as having a software library for MARC. Thus, migrating to swift could loose a MARC capability currently present for C++, according to this table. The cataloging was of interest to catalog SWORD modules at least while the OSIS User's Group was inactive.
-<br>Of course the K-12 standards had core practices for collaboration and communication that possibly will encourage having a swift library.
-<br><br>A bug due to missing newline in a MARC 21 file was observed as mentioned in this <a href="https://counting.substack.com/p/lets-play-with-some-library-of-congress">post</a>. That post downloaded the biggest file. To go faster, just part 1 of the UTF (MARC 21) was downloaded. The warning about no end of line was observed when opening the part 1 file in the vim editor after running gunzip.
-</td>
-</tr>
-
--->
-
-<table border=1 id=1c1>
-	<caption>Table c1 - miscellaneous agreement(s) (placeholder)</caption>
+<table border=1 id=c0>
+	<caption>Table c0 - Remote provider / server agreement(s)</caption>
 	<tr><th>Organization</th><th>agreement(s)</th></tr>
 
-	<tr><td>Wikipedia</td><td>Maintain internet server to host some operator documents for <a href="https://en.m.wikipedia.org/wiki/The_SWORD_Project">The SWORD Project</a> and the <a href="https://wiki.crosswire.org/Main_Page">CrossWire Developers' wiki</a>.</td></tr>
+	<tr><td>Stack Overflow</td>
+	<td>Select/maintain tags to connect experts to questions by sorting questions into specific, well-defined categories. Some tags for swift were observed in the <a href="https://stackoverflow.com/tags/swift/info">About page</a>. Consider identifying if that set was recommended by the lead for that language (Apple). A comment about their selection occurred for a few reasons. First, those tag categories were observed to differ compared to the file <a href="https://github.com/apple/swift/blob/main/CODE_OWNERS.TXT">CODE_OWNERS.TXT</a>. Also, they look like Apple tags thus someone programming in swift on Linux may find it harder to get a practical tag. </td></tr>
 
-	<tr><td>CrossWire bible society</td>
+
+
+	<tr><td>Stack Exchange</td><td>Select and use suitable tags. Like Stack Overflow, consider identifying if the tags were recommended by the lead for the swift language (Apple). The tag ipados was entered in the <a href="https://softwareengineering.stackexchangecom/tags">stackexchange web page<a>, but not observed. Maybe the tags are supposed to be different. A history on the tag development could help potential site users increase confidence for those tags.</td></tr>
+
+	<tr><td>Stackoverflow</td>
+	<td>Consider identifying if a post has inaccurate/old content or if it means an issue should be submitted for swift. One post titled <a href="https://stackoverflow.com/questions/65707094/best-way-to-append-a-string-to-a-text-file-in-swift">Best way to append a string to a text file in Swift</a> reported inability to append to a file. There were similar posts where a cross reference was not observed to the previous post like <a href="https://stackoverflow.com/questions/27327067/append-text-or-data-to-text-file-in-swift">Append text or data to text file in Swift</a>. The first answer in the second post, possibly with the most votes, was for swift 3.0. Swift 5.x was out now.</td></tr>
+
+	<tr>
+	<td>Stackoverflow</td>
+	<td>Consider checking if an anomaly reported about <a href="https://stackoverflow.com/questions/8598354/why-is-msvc10-ignoring-my-pragma-warningdisable-4251">Why is MSVC10 ignoring my #pragma warning(disable: 4251)?</a>. The code was observed in a SWORD project source file xml2gbs.cpp. The code observed was:
+	<br>#ifdef _MSC_VER
+	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#pragma warning( disable: 4251 )
+	<br>#endif
+	</td></tr>
+
+
+
+	<tr><td>Wikipedia</td><td>Maintain internet server to supply documents for <a href="https://en.m.wikipedia.org/wiki/The_SWORD_Project">The SWORD Project</a> and the <a href="https://wiki.crosswire.org/Main_Page">CrossWire Developers' wiki</a>.</td></tr>
+
+	<tr><td>World Wide Web Consortium (W3C)</td><td>Develop web standards and lead the web to its full potential. This will provide more ways for scripture to be transmitted over the internet.</td></tr>
+
+	<tr><td>W3Schools</td>
+	<td>Supply examples and descriptions of how to apply HTML, JavaScript, and CSS. Along with the W3C, this will help the scriptures go around the internet in more ways.</td>
+	</tr>
+
+	<tr><td>Free Software Foundation</td><td>Maintain currency of the listing for <a href="https://directory.fsf.org/wiki/The_SWORD_Project">The SWORD Project in the Free Software Directory</a>. Supply GNU tools so supporters of the CrossWire Bible Society can circulate scripture more efficiently.</td></tr>
+
+</table>
+
+<table border=1 id=c1>
+	<caption>Table c1 - Bible participant agreement(s)</caption>
+	<tr><th>Organization</th><th>agreement(s)</th></tr>
+
+
+	<tr><td><a href="https://crosswire.org">CrossWire bible society</a></td>
 		<td>
 		<ul>
-			<li>maintain SWORD engine(s)</li>
+			<li>sponsor and provide a place for engineers and others to collaborate on projects to serve the Christian church and resource seekers.</li>
+			<li>Help Bible societies and Christian organizations that can't afford -- or don't feel it's their place - to maintain a quality programming staff in house.</li>
 		</ul>
 		</td></tr>
 
-	<tr><td>Free Software Foundation</td><td>Supply GNU tools. Maintain currency of the listing for <a href="https://directory.fsf.org/wiki/The_SWORD_Project">The SWORD Project in the Free Software Directory</a>.</td></tr>
 
-	<tr><td>Bible Operators/Users</td><td>-</td></tr>
+	<tr><td>Publishers</td><td>If/when possible, allow scriptures to be loaded into a SWORD project repository / module.</td></tr>
 
-	<tr><td>Publishers</td><td>When possible or practical, store content in the SWORD project repositories / modules.</td></tr>
-
-	<tr><td>World Wide Web Consortium (W3C)</td><td>Develop web standards and lead the web to its full potential so requesters can access scriptures over the internet.</td></tr>
-
-	<tr><td>Training - Stack Overflow, Stack Exchange, etc</td>
-	<td>Keep a history of questions and answers on past software issues.</td>
-	</tr>
-
-
-	<tr><td>Training - W3Schools</td>
-	<td>Supply examples and descriptions of how to apply HTML, JavaScript, and CSS to deliver scriptures over the internet.</td>
-	</tr>
 
 </table>
 
 
 
-<table border=1 id=1c2>
-	<caption>Table c2 - platform agreement(s) Apple & Linux</caption>
-	<tr><th>Organization</th><th>agreement(s)</th></tr>
+<table border=1 id=c2>
+	<caption>Table c2 - version control agreements</caption>
+	<tr><th>Organization(s)</th><th>agreement(s)</th></tr>
 
-
-	<tr><td>Apple</td><td>Plan / supply swift development kits to the Linux platforms. The SWORD project could decide to apply them.</td></tr>
-	<tr><td>Apple</td><td>Consider preparing Core graphics API for Linux developers. Per the list below, more than one website claimed the Core Graphics API had not yet reached Linux. Bible graphics applications are possible starting from the simplest coloring pages for the younger folks (Kindergarten). 
+	<tr><td>Apple, Linux</td><td>Core graphics API for Linux developers for simple drawing. Web sites such as listed below claimed the Core Graphics API had not yet reached Linux. Many bibles have some pictures such as maps in the back. Also, there are simple drawings like coloring pages for the younger folks (i.e. Kindergarten). 
 		<ul>
-			<li>host/proxy: stackoverflow.com
-			<br>Title: Generate images in pure Swift, without UIKit?
-			OP: Kevin Renskers</li>
-
-			<li>host/proxy: swiftpackageindex.com
-			<br>title: SVGPath
-			<br>url: https://swiftpackageindex.com/nicklockwood/SVGPath</li>
+			<li><a href="https://stackoverflow.com/questions/65979488/generate-images-in-pure-swift-without-uikit">Generate images in pure Swift, without UIKit?</a></li>
+			<li><a href="https://swiftpackageindex.com/nicklockwood/SVGPath">SVGPath</a></li>
 		</ul>
-	</td></tr>
+		</td></tr>
 
-	<tr><td>Linux</td><td>Consider helping the Core Graphics API to be implemented on Linux. Consider an overview for those attempting swift to know if they should import and interoperate with any existing C or C++ libraries.</td></tr>
+	<tr><td>Microsoft</td><td>A website titled <a href="https://github.blog/2023-01-20-sunsetting-subversion-support">Sunsetting Subversion support</a> reported SVN [<a href="https://subversion.apache.org/">Apache Subversion</a>] support would discontinue sometime in 2024 to reduce maintenance cost. Motives for comments included 1) the SWORD project C++ source was using SVN, and 2) K-12 computer science standards in California had concept of being inclusive in computing. Are the maintenance costs due to SVN, github, or both? If SVN, do any costs identify certain subcomponents within SVN to form a request to the SVN community to reduce the costs? Is there no guidance comparable for W3C standards for web development that allows multiple browsers to operate the same protocols instead of splitting off and being incompatible programs. If the support has to be dropped, is there worth in a training example to teach about times when it is necessary to dropping support instead of have an inclusive computing concept?</td>
+
+	<tr>
+		<td>Apple</td>
+		<td>The Swift package manager doesn't work with the subversion (SVN) version control system according to some <a href="https://forums.swift.org/t/using-swift-package-manager-with-version-control/61738">websites</a>. But it does work with git version control. Some of the comments/questions for inconsistent with the Core Practices (CP) for grades K-12 on Equity (towards those affiliated with SVN).</td>
+		</tr>
+
 
 </table>
 
 
-<table border=1 id=1c2>
-	<caption>Table c3 - platform agreement(s) (placeholder)</caption>
+<table border=1 id=c3>
+	<caption>Table c3 -Apple agreement(s)</caption>
 	<tr><th>Organization</th><th>agreement(s)</th></tr>
 
 
-	<tr><td>Microsoft</td><td>Supply / facilitate development tools for platforms running the Microsoft Operating Systems. Includes support for front ends and GitHub storage system</td></tr>
+	<tr>
+		<td>Apple</td>
+		<td>If there is an anomaly, consider identifying it. Some examples are listed below. If there is a newbie shifting from C/ C++ to swift and they observe an anomaly, their schedule in doing the shift might be delayed.</td>
 
-	<tr><td>Google</td><td>Supply / facilitate tools and apps for front-end developers on Android platforms.</td></tr>
+		<td><ul>
+		<li>The documentation for a simple <a href="https://developer.apple.com/documentation/swift/print(_:separator:terminator:)">print function</a> does not have a section on limitations, and at the top identifies the scope of Apple Operating Systems (vs the overarching community). Inconsistent output for print statements was observed in a swift test case run in a Linux terminal. After this observation, several print anomalies were dug up on the internet: <a href="https://github.com/apple/swift-corelibs-xctest/issues/422">XCTest: Stdio not output at correct point</a>, <a href="https://github.com/apple/swift-corelibs-xctest/issues/405">SR-752</a>, <a href="https://github.com/apple/swift/issues/43740">SR-1127</a>, <a href="https://github.com/apple/swift-package-manager/issues/4752">SR-9133</a>, <a href="https://stackoverflow.com/questions/57095407/swift-print-doesnt-appear-in-stdout-but-3rd-party-c-library-logs-do-when-runn">swift "print" doesn't appear in STDOut but 3rd party c library logs do when running in docker on ECS</a>, and <a href="https://stackoverflow.com/questions/66879547/xcode-unit-testing-cant-get-print-commands-to-display-consistently-while-unit">Xcode Unit Testing - Can't get print commands to display consistently while unit tests running</a>.</li>
+
+		<li>A swift post titled <a href="https://forums.swift.org/t/cannot-call-cfstreamcreatepairwithsocket-on-linux/1824">Cannot call CFStreamCreatePairWithSocket on Linux</a> identifies 3 failures to dynamically link. These 3 failures were also observed when compiling/linking on Linux for a different program. They were ignored, but at some point they were observed.
+		</li>
+		</ul>
+		</td></tr>
+
+
+<tr>
+	<td>Apple</td>
+	<td>Consider supplying a reason why C++ exceptions will not <a href="https://github.com/apple/swift/blob/main/docs/CppInteroperability/CppInteroperabilityStatus.md">implementing Experimental support for Exceptions</a>. If someone tries to shift from C++ to Swift, this sounds like increased risk in the new swift program compared to the old code which might have handled the exception.</td>
+</tr>
+
+
+	<tr>
+	<td>Apple</td>
+	<td>Consider making a library better known that would read the the library of Congress XML format / MAchine-Readable Cataloging (MARC) 21. According to a Wikipedia on <a href="https://wiki.code4lib.org/Working_with_MARC#MARC_Programming_Libraries">Working with MARC</a>, Apple swift was not currently listed as having a software library, but C++ was listed. Having at least an equal listing helps someone is considering to shift from C / C++ to Swift to not think something is being lost. A personal parser was made for simple reading, and was not that difficult, but is only personal code.</td></tr>
 
 
 </table>
+
+
+
+<!--
+unused
+
+<tr><td>Google</td><td>Supply / facilitate tools and apps for front-end developers on Android platforms.</td></tr>
+-->
 
 
 <h3 id=d>Environment the system will run</h3>
