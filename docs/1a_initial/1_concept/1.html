@@ -472,14 +472,14 @@ No agreements were made. The tables just identify some existing goals, groups, a
 
 
 
-	<tr><td>Stack Exchange</td><td>Select and use suitable tags. Like Stack Overflow, consider identifying if the tags were recommended by the lead for the swift language (Apple). The tag ipados was entered in the <a href="https://softwareengineering.stackexchangecom/tags">stackexchange web page<a>, but not observed. Maybe the tags are supposed to be different. A history on the tag development could help potential site users increase confidence for those tags.</td></tr>
+	<tr><td>Stack Exchange</td><td>Select and use suitable tags. Like Stack Overflow, consider identifying if the tags were recommended by the lead for the swift language (Apple). The tag ipados from stackoverflow was entered in the <a href="https://softwareengineering.stackexchangecom/tags">stackexchange web page<a>, but not observed. Maybe the swift tags are supposed to be different between stackoverflow and stackexchange. A history on the tag development could help potential site users increase confidence for the tags they are choosing.</td></tr>
 
 	<tr><td>Stackoverflow</td>
-	<td>Consider identifying if a post has inaccurate/old content or if it means an issue should be submitted for swift. One post titled <a href="https://stackoverflow.com/questions/65707094/best-way-to-append-a-string-to-a-text-file-in-swift">Best way to append a string to a text file in Swift</a> reported inability to append to a file. There were similar posts where a cross reference was not observed to the previous post like <a href="https://stackoverflow.com/questions/27327067/append-text-or-data-to-text-file-in-swift">Append text or data to text file in Swift</a>. The first answer in the second post, possibly with the most votes, was for swift 3.0. Swift 5.x was out now.</td></tr>
+	<td>Consider identifying if a post has inaccurate/old content or if it means an issue should be submitted for swift. One post titled <a href="https://stackoverflow.com/questions/65707094/best-way-to-append-a-string-to-a-text-file-in-swift">Best way to append a string to a text file in Swift</a> reported inability to append to a file. There were similar posts where a cross reference was not observed to the previous post like <a href="https://stackoverflow.com/questions/27327067/append-text-or-data-to-text-file-in-swift">Append text or data to text file in Swift</a>. The first answer in the second post, possibly with the most votes, was for swift 3.0. Swift 5.x was out now allowing for more uncertainty as to the actual status.</td></tr>
 
 	<tr>
 	<td>Stackoverflow</td>
-	<td>Consider checking if an anomaly reported about <a href="https://stackoverflow.com/questions/8598354/why-is-msvc10-ignoring-my-pragma-warningdisable-4251">Why is MSVC10 ignoring my #pragma warning(disable: 4251)?</a>. The code was observed in a SWORD project source file xml2gbs.cpp. The code observed was:
+	<td>Consider checking if an anomaly reported about <a href="https://stackoverflow.com/questions/8598354/why-is-msvc10-ignoring-my-pragma-warningdisable-4251">Why is MSVC10 ignoring my #pragma warning(disable: 4251)?</a> is current or obsolete. The code was observed in a SWORD project source file xml2gbs.cpp, but since MIcrosoft tools are not being run, this was not tested. The code observed was:
 	<br>#ifdef _MSC_VER
 	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#pragma warning( disable: 4251 )
 	<br>#endif
@@ -487,7 +487,7 @@ No agreements were made. The tables just identify some existing goals, groups, a
 
 
 
-	<tr><td>Wikipedia</td><td>Maintain internet server to supply documents for <a href="https://en.m.wikipedia.org/wiki/The_SWORD_Project">The SWORD Project</a> and the <a href="https://wiki.crosswire.org/Main_Page">CrossWire Developers' wiki</a>.</td></tr>
+	<tr><td>Wikipedia</td><td>Maintain the internet server to supply documents for <a href="https://en.m.wikipedia.org/wiki/The_SWORD_Project">The SWORD Project</a> and the <a href="https://wiki.crosswire.org/Main_Page">CrossWire Developers' wiki</a>.</td></tr>
 
 	<tr><td>World Wide Web Consortium (W3C)</td><td>Develop web standards and lead the web to its full potential. This will provide more ways for scripture to be transmitted over the internet.</td></tr>
 
@@ -524,18 +524,21 @@ No agreements were made. The tables just identify some existing goals, groups, a
 	<caption>Table c2 - version control agreements</caption>
 	<tr><th>Organization(s)</th><th>agreement(s)</th></tr>
 
-	<tr><td>Apple, Linux</td><td>Core graphics API for Linux developers for simple drawing. Web sites such as listed below claimed the Core Graphics API had not yet reached Linux. Many bibles have some pictures such as maps in the back. Also, there are simple drawings like coloring pages for the younger folks (i.e. Kindergarten). 
+	<tr><td>Apple, Linux</td><td>Core graphics API for Linux developers for simple drawing:
+	<br>Web sites such as listed below claimed the Core Graphics API had not yet reached Linux. Many bibles have some pictures such as maps in the back. Also, there are simple drawings like coloring pages for the younger folks (i.e. Kindergarten). 
 		<ul>
 			<li><a href="https://stackoverflow.com/questions/65979488/generate-images-in-pure-swift-without-uikit">Generate images in pure Swift, without UIKit?</a></li>
 			<li><a href="https://swiftpackageindex.com/nicklockwood/SVGPath">SVGPath</a></li>
 		</ul>
 		</td></tr>
 
-	<tr><td>Microsoft</td><td>A website titled <a href="https://github.blog/2023-01-20-sunsetting-subversion-support">Sunsetting Subversion support</a> reported SVN [<a href="https://subversion.apache.org/">Apache Subversion</a>] support would discontinue sometime in 2024 to reduce maintenance cost. Motives for comments included 1) the SWORD project C++ source was using SVN, and 2) K-12 computer science standards in California had concept of being inclusive in computing. Are the maintenance costs due to SVN, github, or both? If SVN, do any costs identify certain subcomponents within SVN to form a request to the SVN community to reduce the costs? Is there no guidance comparable for W3C standards for web development that allows multiple browsers to operate the same protocols instead of splitting off and being incompatible programs. If the support has to be dropped, is there worth in a training example to teach about times when it is necessary to dropping support instead of have an inclusive computing concept?</td>
-
+	<tr><td>Microsoft</td><td>A website titled <a href="https://github.blog/2023-01-20-sunsetting-subversion-support">Sunsetting Subversion support</a> reported SVN [<a href="https://subversion.apache.org/">Apache Subversion</a>] support would discontinue sometime in 2024 to reduce maintenance cost. Is there any guidance comparable to W3C standards for web development that allows multiple browsers to operate the same protocols instead of splitting off and being incompatible programs and dropping each other? Is it possible to be more specific about costs like categorizing then between SVN and github, or specific APIs?
+	<br>Motives for comments included 1) the SWORD project C++ source was using SVN, and 2) K-12 computer science standards in California had concept of being inclusive in computing. If the SVN support has to be dropped, is there worth in a training example to encourage K-12 that there are some instances to not be inclusive in computing?</td>
+	</tr>
+	
 	<tr>
 		<td>Apple</td>
-		<td>The Swift package manager doesn't work with the subversion (SVN) version control system according to some <a href="https://forums.swift.org/t/using-swift-package-manager-with-version-control/61738">websites</a>. But it does work with git version control. Some of the comments/questions for inconsistent with the Core Practices (CP) for grades K-12 on Equity (towards those affiliated with SVN).</td>
+		<td>The Swift package manager doesn't work with the subversion (SVN) version control system according to some <a href="https://forums.swift.org/t/using-swift-package-manager-with-version-control/61738">websites</a>. But it does work with git version control. Is this another example where the K-12 teachings could have some examples of when not to do inclusive computing?</td>
 		</tr>
 
 
@@ -562,13 +565,13 @@ No agreements were made. The tables just identify some existing goals, groups, a
 
 <tr>
 	<td>Apple</td>
-	<td>Consider supplying a reason why C++ exceptions will not <a href="https://github.com/apple/swift/blob/main/docs/CppInteroperability/CppInteroperabilityStatus.md">implementing Experimental support for Exceptions</a>. If someone tries to shift from C++ to Swift, this sounds like increased risk in the new swift program compared to the old code which might have handled the exception.</td>
+	<td>Consider supplying a reason why C++ exceptions will not be <a href="https://github.com/apple/swift/blob/main/docs/CppInteroperability/CppInteroperabilityStatus.md">implementing Experimental support for Exceptions</a>. If someone tries to shift from C++ to Swift, this sounds like increased risk in the new swift program compared to the old code which might have handled the exception.</td>
 </tr>
 
 
 	<tr>
 	<td>Apple</td>
-	<td>Consider making a library better known that would read the the library of Congress XML format / MAchine-Readable Cataloging (MARC) 21. According to a Wikipedia on <a href="https://wiki.code4lib.org/Working_with_MARC#MARC_Programming_Libraries">Working with MARC</a>, Apple swift was not currently listed as having a software library, but C++ was listed. Having at least an equal listing helps someone is considering to shift from C / C++ to Swift to not think something is being lost. A personal parser was made for simple reading, and was not that difficult, but is only personal code.</td></tr>
+	<td>Consider making a library better known that would read the the library of Congress XML format / MAchine-Readable Cataloging (MARC) 21. According to a Wikipedia on <a href="https://wiki.code4lib.org/Working_with_MARC#MARC_Programming_Libraries">Working with MARC</a>, Apple swift was not currently listed as having a software library, but C++ was listed. Having at least an equal listing helps someone considering to shift from C / C++ to Swift to not think something is being lost. A personal parser was made for simple reading, and was not that difficult, but is only personal code.</td></tr>
 
 
 </table>
