@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<osis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="doctrineFcc.xsd">
+
+<osisText osisRefWork="GenBook" xml:lang="en" osisIDWork="doctrineFCCv2">
+	<header>
+		<revisionDesc resp="gms">
+			<date>2023.03.16</date>
+			<p>The local church doctrine was being reformatted from html to xml simultaneously with learning OSIS</p>
+		</revisionDesc>
+		<work osisWork="doctrineFCCv2">
+			<title>doctrine reformatted to xml and using a library classification [subject tag.</title>
+			<contributor role="mrk">Greg Smith</contributor>
+			<creator role="aut">Faith Community Church of Palmdale, CA; business entity number 471408</creator>
+			<date event="eversion">2023.03.16</date>
+			<subject type="LCC">Class B - Philosophy. Psychology. Religion</subject>
+			<source>The creator's html version was on the net at https://www.faithtoyou.com/doctrine</source>
+			<coverage>39100 10th Street West Palmdale, CA 93551 [USA/America]</coverage>
+			<rights type="x-copyright">Copyright 2022 Faith Community Church</rights>
+		</work>
+		<workPrefix/>
+	</header>
+
+<div_BR type="section" osisID="Subclass BR - Christianity">
+	<title>Subclass BR - Christianity"</title>
+	<p id="BR1-1725">Christianity</p>
+		<p id="BR60-67">Early Christian literature. Fathers of the Church, etc.</p>
+		<p id="BR115">Christianity in relation to special subjects</p>
+		<p id="BR130-133.5">Christian antiquities. Archaeology. Museums</p>
+		<p id="BR140-1510">History</p>
+			<p id="BR160-481">By period</p>
+				<p id="BR160-275">Early and medieval</p>
+				<p id="BR280">Renaissance. Renaissance and Reformation</p>
+				<p id="BR290-481">Modern period</p>
+					<p id="BR323.5-334.2">Luther, Martin</p>
+			<p id="BR500-1510">By region or country</p>
+		<p id="BR1600-1609">Persecution. Martyrs</p>
+		<p id="BR1609.5">Dissent</p>
+		<p id="BR1610">Tolerance and toleration</p>
+		<p id="BR1615-1617">Liberalism</p>
+		<p id="BR1620">Sacrilege (History)</p>
+		<p id="BR1690-1725">Biography</p>
+</div_BR>
+
+<div_BS type="section" osisID="Subclass BS - The Bible">
+	<title>BS1-2970 The Bible (title)</title>
+	<p id="BS11-115">Early versions</p>
+	<p id="BS125-355">Modern texts and versions</p>
+		<p id="BS125-198">English</p>
+		<p id="BS199-313">Other European languages</p>
+		<p id="BS315-355">Non-European languages</p>
+			<p id="BS315">Asian languages</p>
+			<p id="BS325">African languages</p>
+			<p id="BS335">Languages of Oceania and Australasia</p>
+			<p id="BS345">American Indian languages</p>
+			<p id="BS350">Mixed languages</p>
+			<p id="BS355">Artificial languages</p>
+	<p id="BS410-680">Works about the Bible</p>
+		<p id="BS500-534.8">Criticism and interpretation</p>
+		<p id="BS535-537">The Bible as literature</p>
+		<p id="BS546-558">Bible stories. Paraphrases of Bible stories. The Bible story</p>
+		<p id="BS569-580">Men, women, and children of the Bible</p>
+		<p id="BS580">Individual Old Testament characters</p>
+		<p id="BS585-613">Study and teaching</p>
+		<p id="BS647-649">Prophecy</p>
+		<p id="BS650-667">Bible and science</p>
+		<p id="BS670-672">Bible and social sciences</p>
+	<p id="BS701-1830">Old Testament</p>
+		<p id="BS705-815">Early versions</p>
+		<p id="BS825-1013">Modern texts and versions</p>
+		<p id="BS1091-1099">Selections. Quotations</p>
+		<p id="BS1110-1199">Works about the Old Testament</p>
+		<p id="BS1160-1191.5">Criticism and interpretation</p>
+		<p id="BS1200-1830">Special parts of the Old Testament</p>
+	<p id="BS1901-2970">New Testament</p>
+		<p id="BS1937-2020">Early texts and versions</p>
+		<p id="BS2025-2213">Modern texts and versions</p>
+		<p id="BS2260-2269">Selections. Quotations</p>
+		<p id="BS2280-2545">Works about the New Testament</p>
+			<p id="BS2350-2393">Criticism and interpretation</p>
+			<p id="BS2415-2417">The teachings of Jesus</p>
+			<p id="BS2430-2520">Men, women, and children of the New Testament</p>
+			<p id="BS2525-2544">Study and teaching</p>
+		<p id="BS2547-2970">Special parts of the New Testament</p>
+			<p id="BS2640-2765.6">Epistles of Paul</p>
+</div_BS>
+
+
+<div_BT type="section" osisID="Subclass BT Doctrinal Theology">
+<title>BT10-1480 Doctrinal Theology (title)</title>
+<p id="BT10-1480">Doctrinal Theology</p>
+	<p id="BT19-37">Doctrine and dogma</p>
+	<p id="BT93-93.6">Judaism</p>
+	<p id="BT95-97.2">Divine law. Moral government</p>
+	<p id="BT98-180">God</p>
+		<p id="BT109-115">Doctrine of the Trinity</p>
+		<p id="BT117-123">Holy Spirit. The Paraclete</p>
+		<p id="BT126-127.5">Revelation</p>
+		<p id="BT130-153">Divine attributes</p>
+	<p id="BT198-590">Christology</p>
+		<p id="BT296-500">Life of Christ</p>
+		<p id="BT580">Miracles. Apparitions. Shrines, sanctuaries, images, processions, etc.</p>
+		<p id="BT587">Relics</p>
+	<p id="BT595-680">Mary, Mother of Jesus Christ. Mariology</p>
+		<p id="BT650-660">Miracles. Apparitions. Shrines, sanctuaries, images, processions, etc.</p>
+	<p id="BT695-749">Creation</p>
+	<p id="BT750-811">Salvation. Soteriology</p>
+	<p id="BT819-891">Eschatology. Last things</p>
+	<p id="BT899-940">Future state. Future life</p>
+	<p id="BT960-985">Invisible world (saints, demons, etc.)</p>
+	<p id="BT990-1010">Creeds, confessions, covenants, etc.</p>
+	<p id="BT1029-1040">Catechisms</p>
+	<p id="BT1095-1255">Apologetics. Evidences of Christianity</p>
+	<p id="BT1313-1480">History of specific doctrines and movements. Heresies and schisms</p>
+</div_BT>
+
+
+<div_BV type="section" osisID="Subclass BV1-5099 Practical Theology">
+<title>BV1-5099 Practical Theology (title)</title>
+<p id="BV1-5099">Practical Theology</p>
+	<p id="BV5-530">Worship (Public and private)</p>
+		<p id="BV30-135">Times and seasons. The Church year</p>
+			<p id="BV43-64">Feast days</p>
+			<p id="BV65-70">Saints’ days</p>
+			<p id="BV80-105">Fasts</p>
+			<p id="BV107-133">Lord’s Day. Sunday. Sabbath</p>
+		<p id="BV150-168">Christian symbols and symbolism</p>
+		<p id="BV169-199">Liturgy and ritual</p>
+		<p id="BV200">Family worship</p>
+		<p id="BV205-287">Prayer</p>
+		<p id="BV301-530">Hymnology</p>
+			<p id="BV360-465">Denominational and special types of hymnbooks in English</p>
+			<p id="BV467-510">Hymns in languages other than English</p>
+	<p id="BV590-1652">Ecclesiastical theology</p>
+		<p id="BV598-603">The Church</p>
+		<p id="BV629-631">Church and state</p>
+		<p id="BV637-637.5">City churches</p>
+		<p id="BV638-638.8">The rural church. The church and country life</p>
+		<p id="BV646-651">Church polity</p>
+		<p id="BV652-652.9">Church management. Efficiency</p>
+		<p id="BV652.95-657">Mass media and telecommunication in religion</p>
+		<p id="BV659-683">Ministry. Clergy. Religious vocations</p>
+		<p id="BV700-707">Parish. Congregation. The local church</p>
+		<p id="BV770-777">Church finance. Church property</p>
+		<p id="BV800-873">Sacraments. Ordinances</p>
+			<p id="BV803-814">Baptism</p>
+			<p id="BV823-828">Holy Communion. Lord’s Supper. Eucharist</p>
+			<p id="BV835-838">Marriage</p>
+			<p id="BV840-850">Penance</p>
+		<p id="BV895-896">Shrines. Holy places</p>
+		<p id="BV900-1450">Religious societies, associations, etc.</p>
+		<p id="BV950-1280">Religious societies of men, brotherhoods, etc.</p>
+			<p id="BV1000-1220">Young Men’s Christian Associations</p>
+		<p id="BV1300-1395">Religious societies of women</p>
+			<p id="BV1300-1393">Young Women’s Christian Associations</p>
+		<p id="BV1460-1615">Religious education (General)</p>
+		<p id="BV1620-1652">Social life, recreation, etc., in the church</p>
+	<p id="BV2000-3705">Missions</p>
+		<p id="BV2123-2595">Special churches</p>
+			<p id="BV2130-2300">Roman Catholic Church</p>
+			<p id="BV2350-2595">Protestant churches</p>
+		<p id="BV2610-2695">Special types of missions</p>
+		<p id="BV2750-3695">Missions in individual countries</p>
+	<p id="BV3750-3799">Evangelism. Revivals</p>
+	<p id="BV4000-4470">Pastoral theology</p>
+		<p id="BV4019-4180">Education</p>
+			<p id="BV4019-4167">Training for the ordained ministry</p>
+			<p id="BV4168-4180">Training for lay workers</p>
+			<p id="BV4200-4317">Preaching. Homiletics</p>
+				<p id="BV4239-4317">Sermons</p>
+			<p id="BV4390-4399">Personal life of the clergy</p>
+			<p id="BV4400-4470">Practical church work. Social work. Work of the layman</p>
+	<p id="BV4485-5099">Practical religion. The Christian life</p>
+		<p id="BV4520-4526.2">Religious duties</p>
+		<p id="BV4625-4780">Moral theology</p>
+			<p id="BV4625-4627">Sins and vices</p>
+			<p id="BV4630-4647">Virtues</p>
+			<p id="BV4650-4715">Precepts from the Bible</p>
+			<p id="BV4720-4780">Precepts of the Church. Commandments of the Church</p>
+		<p id="BV4800-4897">Works of meditation and devotion</p>
+		<p id="BV4900-4911">Works of consolation and cheer</p>
+		<p id="BV4912-4950">Conversion literature</p>
+		<p id="BV5015-5068">Asceticism</p>
+		<p id="BV5070-5095">Mysticism</p>
+		<p id="BV5099">Quietism</p>
+</div_BV>
+
+
+<div_BX type="section" osisID="Subclass BX Christian Denominations">
+<title>Subclass BX Christian Denominations (title)</title>
+<p id="BX1-9999">Christian Denominations</p>
+	<p id="BX1-9.5">Church unity. Ecumenical movement. Interdenominational cooperation</p>
+	<p id="BX100-189">Eastern churches. Oriental churches</p>
+		<p id="BX100-107">General</p>
+		<p id="BX120-129">Armenian Church</p>
+		<p id="BX130-139">Coptic Church</p>
+		<p id="BX140-149">Ethiopic or Abyssinian Church</p>
+		<p id="BX150-159">Nestorian, Chaldean, or East Syrian Church</p>
+		<p id="BX160-169">St. Thomas Christians. Malabar Christians. Mar Thoma Syrian Church</p>
+		<p id="BX170-179">Syrian or Jacobite Church</p>
+		<p id="BX180-189">Maronite Church</p>
+	<p id="BX200-756">Orthodox Eastern Church</p>
+		<p id="BX200-395">General</p>
+		<p id="BX400-756">Divisions of the church</p>
+			<p id="BX400-440">Patriarchates of the East. Melchites</p>
+			<p id="BX450-450.93">Church of Cyprus</p>
+			<p id="BX460-605">Russian Church</p>
+			<p id="BX610-620">Church of Greece</p>
+			<p id="BX630-639">Orthodox Church in Austria and Hungary</p>
+			<p id="BX650-659">Bulgarian Church</p>
+			<p id="BX660-669">Georgian Church</p>
+			<p id="BX670-679">Montenegrin Church</p>
+			<p id="BX690-699">Romanian Church</p>
+			<p id="BX710-719">Serbian Church. Yugoslav Church</p>
+			<p id="BX720-729">Orthodox Eastern Church, Macedonian</p>
+			<p id="BX729.5">Orthodox Eastern Church, Ukrainian</p>
+			<p id="BX729.9-755">Orthodox Church in other regions or countries</p>
+	<p id="BX800-4795">Catholic Church</p>
+		<p id="BX800-839">Periodicals. Societies, councils, congresses, etc.</p>
+		<p id="BX840">Museums. Exhibitions</p>
+		<p id="BX841">Dictionaries. Encyclopedias</p>
+		<p id="BX845">Directories. Yearbooks</p>
+		<p id="BX847">Atlases</p>
+		<p id="BX850-875">Documents</p>
+		<p id="BX880-891">General collected works</p>
+		<p id="BX895-939">Study and teaching</p>
+		<p id="BX940-1745">History, Including lives of popes</p>
+		<p id="BX1746-1755">Theology. Doctrine. Dogmatics</p>
+		<p id="BX1756">Sermons</p>
+		<p id="BX1760-1779.5">Controversial works</p>
+		<p id="BX1781-1788">Catholic Church and other churches</p>
+		<p id="BX1790-1793">Catholic Church and the state</p>
+		<p id="BX1800-1920">Government and organization</p>
+		<p id="BX1958-1968">Creeds and catechisms</p>
+		<p id="BX1969">Forms of worship. Catholic practice</p>
+		<p id="BX1970-2175">Liturgy and ritual</p>
+			<p id="BX2050-2175">Prayers and devotions</p>
+		<p id="BX2177-2198">Meditations. Devotional readings. Spiritual exercises, etc.</p>
+		<p id="BX2200-2292">Sacraments</p>
+		<p id="BX2295-2310">Sacramentals</p>
+		<p id="BX2312">Images</p>
+		<p id="BX2315-2324">Relics. Shrines. Pilgrimages. Processions</p>
+		<p id="BX2325-2333">Saints. Hagiology</p>
+		<p id="BX2347-2377">Practical religion. Christian life</p>
+		<p id="BX2380-2386">Religious life. Religious state</p>
+		<p id="BX2400-4563">Monasticism. Religious orders</p>
+			<p id="BX2890-4192">Religious orders of men</p>
+			<p id="BX4200-4563">Religious orders of women</p>
+		<p id="BX4600-4644">Churches, cathedrals, abbeys (as parish churches), etc.</p>
+		<p id="BX4650-4705">Biography and portraits</p>
+			<p id="BX4650-4698">Collective</p>
+				<p id="BX4654-4662">Saints and martyrs</p>
+			<p id="BX4700-4705">Individual</p>
+				<p id="BX4700">Saints</p>
+		<p id="BX4710.1-4715.95">Eastern churches in communion with Rome. Catholics of the Oriental rites. Uniats</p>
+		<p id="BX4716.4-4795">Dissenting sects other than Protestant</p>
+			<p id="BX4718.5-4735">Jansenists</p>
+			<p id="BX4737">French schisms of the 19th century</p>
+			<p id="BX4740">German Catholics</p>
+			<p id="BX4751-4793">Old Catholics</p>
+			<p id="BX4793.5-4794.25">Independent Catholic Churches</p>
+			<p id="BX4795">Other</p>
+	<p id="BX4800-9999">Protestantism</p>
+		<p id="BX4800-4861">General</p>
+		<p id="BX4872-4924">Pre-Reformation</p>
+			<p id="BX4872-4893">Waldenses and Albigenses</p>
+			<p id="BX4900-4906">Lollards. Wycliffites</p>
+			<p id="BX4913-4924">Hussites</p>
+				<p id="BX4920-4924">Bohemian Brethren</p>
+		<p id="BX4929-4951">Post-Reformation</p>
+			<p id="BX4929-4946">Anabaptists</p>
+			<p id="BX4950-4951">Plain People</p>
+		<p id="BX5001-5009">Anglican Communion (General)</p>
+		<p id="BX5011-5207">Church of England</p>
+			<p id="BX5011-5050">General</p>
+			<p id="BX5051-5110">History. Local divisions</p>
+			<p id="BX5115-5126">Special parties and movements</p>
+			<p id="BX5127-5129.8">Church of England and other churches</p>
+			<p id="BX5130-5132">General</p>
+			<p id="BX5133">Sermons. Tracts. Addresses. Essays</p>
+			<p id="BX5135-5136">Controversial works</p>
+			<p id="BX5137-5139">Creeds and catechisms, etc.</p>
+			<p id="BX5140.5-5147">Liturgy and ritual</p>
+			<p id="BX5148-5149">Sacraments</p>
+			<p id="BX5150-5182.5">Government. Organization. Discipline</p>
+			<p id="BX5183-5187">Religious communities. Conventual life. Religious societies</p>
+			<p id="BX5194-5195">Cathedrals, churches, etc. in England and Wales</p>
+			<p id="BX5197-5199">Biography</p>
+			<p id="BX5200-5207">Dissent and nonconformity</p>
+			<p id="BX5210-5395">Episcopal Church in Scotland</p>
+			<p id="BX5410-5595">Church of Ireland</p>
+			<p id="BX5596-5598">Church in Wales</p>
+			<p id="BX5600-5740">Church of England outside of Great Britain</p>
+				<p id="BX5601-5620">Anglican Church of Canada</p>
+		<p id="BX5800-5995">Protestant Episcopal Church in the United States of America</p>
+		<p id="BX5996-6030">Protestant Episcopal Church outside the United States</p>
+		<p id="BX6051-6093">Reformed Episcopal Church</p>
+		<p id="BX6101-9999">Other Protestant denominations Alphabetical; only larger denominations listed The subarrangement is essentially the same for each sect, the primary features being indicated by way of example under Baptists</p>
+			<p id="BX6101-6193">Adventists. “Millerites”</p>
+			<p id="BX6195-6197">Arminians. Remonstrants</p>
+			<p id="BX6201-6495">Baptists</p>
+				<p id="BX6201-6227">General</p>
+				<p id="BX6231-6328">History. Local divisions</p>
+				<p id="BX6329">Baptists and other churches</p>
+				<p id="BX6330-6331.2">Doctrine</p>
+				<p id="BX6333">Sermons. Tracts</p>
+				<p id="BX6334">Controversial works</p>
+				<p id="BX6335-6336">Creeds. Catechisms</p>
+				<p id="BX6337">Service. Ritual. Liturgy</p>
+				<p id="BX6338-6339">Sacraments</p>
+				<p id="BX6340-6346.3">Government. Discipline</p>
+				<p id="BX6349-6470">Individual branches</p>
+				<p id="BX6480-6490">Individual Baptist churches</p>
+				<p id="BX6493-6495">Biography</p>
+		<p id="BX6551-6593">Catholic Apostolic Church. Irvingites</p>
+		<p id="BX6651-6693">Christadelphians. Brothers of Christ</p>
+		<p id="BX6751-6793">Christian Church See also Disciples of Christ</p>
+		<p id="BX6801-6843">Christian Reformed Church</p>
+		<p id="BX6901-6997">Christian Science</p>
+		<p id="BX7003">Christian Union</p>
+		<p id="BX7020-7060">Church of God</p>
+		<p id="BX7079-7097">Churches of God</p>
+		<p id="BX7101-7260">Congregationalism</p>
+		<p id="BX7301-7343">Disciples of Christ. Campbellites</p>
+		<p id="BX7401-7430">Dowieism. Christian Catholic Church</p>
+		<p id="BX7451-7493">Evangelical and Reformed Church</p>
+		<p id="BX7556">Evangelical United Brethren Church</p>
+		<p id="BX7580-7583">Free Congregations (Germany). Freie Gemeinden</p>
+		<p id="BX7601-7795">Friends. Society of Friends. Quakers</p>
+		<p id="BX7801-7843">German Baptist Brethren. Church of the Brethren. Dunkards</p>
+		<p id="BX7850-7865">German Evangelical Protestant Church of North America. Evangelical Protestant Church of North America</p>
+		<p id="BX7901-7943">German Evangelical Synod of North America</p>
+		<p id="BX7990.H6-.H69">Holiness churches</p>
+		<p id="BX8001-8080">Lutheran churches</p>
+		<p id="BX8101-8144">Mennonites</p>
+		<p id="BX8201-8495">Methodism</p>
+		<p id="BX8525-8528">Millennial Dawnists. Jehovah’s Witnesses</p>
+		<p id="BX8551-8593">Moravian Church. United Brethren. Unitas Fratrum. Herrnhuters</p>
+		<p id="BX8601-8695">Mormons. Church of Jesus Christ of Latter-Day Saints</p>
+		<p id="BX8701-8749">New Jerusalem Church. New Church. Swedenborgianism</p>
+		<p id="BX8762-8785">Pentecostal churches</p>
+		<p id="BX8799-8809">Plymouth Brethren. Darbyites</p>
+		<p id="BX8901-9225">Presbyterianism. Calvinistic Methodism</p>
+		<p id="BX9301-9359">Puritanism</p>
+		<p id="BX9401-9640">Reformed or Calvinistic Churches</p>
+		<p id="BX9675">River Brethren. Brethren in Christ</p>
+		<p id="BX9701-9743">Salvation Army</p>
+		<p id="BX9751-9793">Shakers. United Society of Believers. Millennial Church</p>
+		<p id="BX9801-9869">Unitarianism</p>
+		<p id="BX9875-9877.1">United Brethren in Christ. Church of the United Brethren in Christ</p>
+		<p id="BX9881-9882.95">United Church of Canada</p>
+		<p id="BX9884-9886">United Church of Christ</p>
+		<p id="BX9887">United Evangelical Church</p>
+		<p id="BX9889">United Missionary Church</p>
+		<p id="BX9901-9969">Unviersalism. Universalists</p>
+		<p id="BX9975">Volunteers of America</p>
+		<p id="BX9980">Walloon Church</p>
+		<p id="BX9998">Other beliefs and movements akin to Christianity</p>
+		<p id="BX9999">Independent churches, parishes, societies, etc.</p>
+</div_BX>
+
+
+
+<div_FCC_pt1 type="section" osisID="FCC pt 1">
+	<title>Purpose of our church (title)</title>
+	<p>The purpose of our church is to praise and glorify God (1 Chronicles 16:8-36; Ephesians 1:11-12), and we do this by:</p>
+	<list id="list1">
+		<item>1. Evangelizing the lost (Romans 10:14-15)</item>
+		<item>2. Equipping and encouraging believers (Ephesians 4:11-12)</item>
+		<item>3. Exalting Christ as Savior and Lord in our lives (Philippians 2:9-11)</item>
+		<item>4. Exposing false teaching in our world (Jude 3)</item>
+		<item>5. Expositing His Word in our services (2 Timothy 4:2)</item>
+	</list>
+</div_FCC_pt1>
+
+<div_FCC_pt2 type="section" osisID="FCC pt 2">
+	<title>statement of faith</title>
+	<p>The following section is the statement of faith found in our constitution and bylaws.</p>
+
+	<p>Trinity - There is one God, who is infinitely perfect, existing eternally in three persons: Father, Son, and Holy Spirit. (Deuteronomy 6:4; Matthew 5:48; Matthew 28:19)</p>
+
+	<p>God The Father - In Scripture the name Father is sometimes applied to the Triune God as the origin of all created things, although it does refer more particularly to God the Father to whom the work of creation is more especially ascribed. This name also expresses the theocratic relation in which He stands to Israel as His Old Testament people. In the New Testament it is generally used in an ethical sense of all His spiritual children, and it is also applied to the first person (the Father) of the Trinity in His relation to the second person (Jesus Christ). He is not begotten. He is in the foreground designing the work of creation, redemption, and providence. God the Father represents the Trinity as the holy and righteous being, whose right was violated.</p>
+
+	<p>Jesus Christ - Jesus Christ is fully God and fully man. He was conceived by the Holy Spirit and born of the Virgin Mary. He died upon the cross, the Just for the unjust, as a substitutionary sacrifice, and all who believe in Him are justified on the ground of His shed blood. He arose from the dead according to the Scriptures. He is now at the right hand of the Majesty on high as our great High Priest. He will come again to establish His kingdom of righteousness and peace. (Philippians 2:6-11; Luke 1:36-38; 1 Peter 3:18; Hebrews 2:9; Romans 5:9; Acts 2:23-24; Hebrews 8:1; Matthew 26:64)</p>
+
+	<p>The Holy Spirit - The Holy Spirit is a divine person, sent to indwell, guide, teach, empower the believer, and convince the world of sin, of righteousness, and of judgment. (John 14:15-18; John 16:13; Acts 1:8; John 16:7-11)</p>
+
+	<p>Bible - The Old and New Testaments, inerrant as originally given, were verbally inspired by God and are a complete revelation of His will for the salvation of men. They constitute the divine and only rule of Christian faith and practice. (2 Peter 1:20-21; 2 Timothy 3:15-16)</p>
+
+	<p>Man - Man was originally created in the image and likeness of God. He fell through disobedience, thereby incurring both physical and spiritual death. All men are born with a sinful nature, are separated from the life of God, and can be saved only through the atoning work of the Lord Jesus Christ. The destiny of the impenitent and unbelieving is existence forever in conscious torment, and that of the believer, in everlasting joy and bliss. (Genesis 1:27; Romans 3:23; 1 Corinthians 15:20-23; Revelation 21:8; Revelation 21:1-4)</p>
+
+	<p>Salvation - Salvation has been provided through Jesus Christ for all men, and those who repent and believe in Him are born again of the Holy Spirit, receive the gift of eternal life, and become the children of God. (Titus 3:4-7)</p>
+
+	<p>Believers - It is the will of God that each believer should be filled with the Holy Spirit and be wholly sanctified, being separated from sin and the world and fully dedicated to the will of God, thereby receiving power for holy living and effective service. This is both an immediate and a progressive experience wrought in the life of the believer subsequent to conversion. (Ephesians 5:18; 1 Thessalonians 5:23; Acts 1:8; Romans 6:1-14)</p>
+
+	<p>Security of the Believer - When we trust Jesus to be our Lord and Savior, we are sealed with the Holy Spirit. This seal is unbreakable and is our guarantee of salvation. We cannot be separated from the love of Christ. No one can snatch us out of the hand of God the Son and the hand of God the Father. He who began a good work in us will carry it on to completion until the day of Christ Jesus. (Ephesians 1:13-14; Romans 8:35-39; John 10:28-30; Philippians 1:6)</p>
+
+	<p>The Church - The universal church consists of all those who believe on the Lord Jesus Christ, are redeemed through His blood, and are born again of the Holy Spirit. Christ is the head of the body, the church, which has been commissioned by Him to go into all the world as a witness, preaching the gospel to all nations. The local church is a body of believers in Christ who are joined together for the worship of God, edification through the Word of God, prayer, fellowship, the proclamation of the gospel, and observance of the ordinances of baptism and the Lord’s supper. (Ephesians 1:22-23; Matthew 28:19-20; Acts 2:41-47)</p>
+
+	<p>Resurrection - There shall be a bodily resurrection of the just and of the unjust; for the former, a resurrection unto life; for the latter, a resurrection unto judgment. (1 Corinthians 15:20-23; John 5:28-29)</p>
+
+	<p>The Rapture - The rapture by the Lord Jesus Christ is imminent and will be personal, visible, and pre-millennial. This is the believer’s blessed hope and is a vital truth which is an incentive to holy living and faithful service. (Hebrews 10:37; Luke 21:27; Titus 2:11-14)</p>
+</div_FCC_pt2>
+
+
+<div_FCC_pt3 type="section" osisID="FCC pt 3">
+<title>statement of church belief and practice</title>
+	<p>The following section is our statement of church belief and practice, which is also found in our constitution and bylaws.</p>
+
+	<p>Water Baptism - God’s Word teaches that a person needs to repent of his/her sins and then be baptized. Water baptism is an act of obedience—not something you do to become saved. We believe that once a person trusts Christ, and what He did for them on the cross, they are saved. By following our Lord’s command regarding water baptism, we show His lordship in our lives. (Acts 2:38; Romans 6:1-4)</p>
+
+	<p>The Lord’s Supper - The Lord’s supper is a reminder of what our Lord did for us on the cross. Jesus would have us celebrate communion regularly in remembrance of Him. Some churches have communion every day, some every week, still others at various times. This can be done as often as desired. It must be done in reverence and in remembrance of Christ. (1 Corinthians 11:25-26)</p>
+
+	<p>Healing - Provision is made in the redemptive work of the Lord Jesus Christ for the healing of the mortal body. Prayer for the sick and anointing with oil are taught in the Scriptures and are privileges for the church in this present age. (Matthew 8:16-17; James 5:13-16)</p>
+
+	<p>Church Leadership - Our church leaders are elders. The apostle Peter taught that elders are to be shepherds of God’s flock of which Jesus Christ is the Chief Shepherd. Elders are not to be lords over God’s heritage but are to be examples to the flock as servant leaders. These are men who have shown faithfulness as servants of the Lord in our church and in the community. (1 Timothy 5:17; 1 Peter 5:1-3; 1 Timothy 3:1-7; Titus 1:6-9)</p>
+
+	<p>Missions - We believe local missions and foreign missions should be equally emphasized. We support missionaries from several missionary societies. We believe the Word of God teaches that without Christ a person spends eternity in hell. We are committed to “The Great Commission” to tell everyone about Christ and make disciples in every nation. (Matthew 28:18-20)</p>
+
+	<p>Financial Giving - We recognize that giving of our finances to the Lord’s work is one way of showing God that we trust Him to provide for our needs. We do not want money to become an emphasis at Faith Community Church. We want people to give out of love for God—not out of obligation. We do not take pledges for giving but rather ask God to provide for our needs. The Lord desires “cheerful givers” and our emphasis is to promote a proper attitude in giving. (2 Corinthians 9:6-7)</p>
+
+	<p>Music - We use music to worship God and prepare our hearts for the ministry of the Word. At Faith Community Church, we seek to balance traditional with contemporary music. We do not use music to replace the instruction of the Scriptures or simply stir the emotions of our people. (Psalm 98:1-9)</p>
+
+	<p>Church Discipline - Our church follows the principles of Matthew 18:15-20 and 2 Thessalonians 3:6-15 in its application of discipline. Whether someone is a member or regular attendee, we encourage them to live godly lives by holding them accountable to walk pleasing to the Lord.</p>
+
+	<p>Speaking in Tongues - On the basis of God's Word, we hold the following truths regarding tongues: 1) seek not, but forbid not; 2) seek the Giver—not the gift; and 3) if used in the worship service, there must be an interpreter present who translates it for the edification of the church. Does everyone speak in tongues? No. If someone does speak in tongues, it must be done in a fitting and orderly way in accordance with God’s Word. (1 Corinthians 14:1-5, 12, 39; 1 Corinthians 12:29-30; 1 Corinthians 14:40)</p>
+
+	<p>Opposition to Sin - We oppose all sin (deviation from God’s value system and standards), but we want to delineate our extreme aversion to the following particular sins because they have made inroads in many churches and denominations:</p>
+	<list id="list2">
+		<item>(a) Adultery and Sexual Immorality (Hebrews 13:4; Malachi 2:15; Romans 13:13);</item>
+		<item>(b) Homosexuality and Same Sex Marriage (Romans 1:26-27; Leviticus 18:22; Leviticus 20:13);</item>
+		<item>(c) Abortion (Psalm 51:5 teaches personality upon conception, and Exodus 20:13 says, “You shall not murder”);</item>
+		<item>(d) Ordination of Women (1 Timothy 3:1-7 and Titus 1:6-9 teach that an elder or pastor is a man).</item>
+	</list>
+</div_FCC_pt3>
+</osisText>
+</osis>

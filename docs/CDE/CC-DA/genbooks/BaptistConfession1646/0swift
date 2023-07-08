@@ -1,0 +1,28 @@
+#!/bin/sh
+#rudimentary xmlparser in swift programming language for SWORD module BaptistConfession1646
+#requred install of swift 5.7.1 and its dependencies on Ubuntu server 20.04 
+	#https://download.swift.org/swift-5.7.1-release/ubuntu2004/swift-5.7.1-RELEASE/swift-5.7.1-RELEASE-ubuntu20.04.tar.gz
+#operation examples from local folder: ./0swift b, ./0swift r, ./0swift v
+
+main() {
+	case $1 in
+		"b") 
+			swift build
+			;;
+		"r") #run test program(s) 
+			swift test --filter bdtFile #The --filter argument limited testing to just teh one named test
+			#swift test #runs all tests if multiple
+			;;
+		"v") #open selected files in editor (vim) 
+			vim Sources/ex1/ex1.swift
+			#vim Sources/ex1/ex1.docc/ex1.md #documentation - not yet attempted
+				;;
+		*)
+			printf 'unexpected argument %s, exiting' "$1"
+			exit 1
+		;;
+		esac
+	exit 0
+} #end details
+
+main "$@"; exit

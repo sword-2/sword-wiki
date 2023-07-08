@@ -1,0 +1,7 @@
+/**
+\page main main
+ 
+
+Can main() check the return code from processXML() for success or error, and then print out an appropriate explanation in human text?
+
+*/

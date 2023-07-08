@@ -1,0 +1,49 @@
+
+/**
+\page man man
+
+
+	<tr><td>man file</td>
+	<td>manual; Linux cli</td>
+	<td>\subpage man "man"</td></tr>
+
+
+
+
+
+The most spelling errors may come from the owner of this personal repo and not SWORD files. But also some spelling fixes to SWORD were observed in the man page as follows ...
+<ul>
+	<li>sourse to source in the DESCRIPTION section.</li>
+	<li>formal to format in the OPTIONS section.</li>
+</ul>
+
+
+The spelling came from the output of the command "man xml2gbs" as copied below ...
+<br><br><br><br><br>
+
+XML2GBS.1(1)                                                            Sword Module Utilities                                                           XML2GBS.1(1)
+
+NAME
+       xml2gbs - OSIS/ThML General Book module creation tool
+
+SYNOPSIS
+       xml2gbs [OPTIONS] SOURCE [MODULENAME]
+
+DESCRIPTION
+       This is a tool to create SWORD general book modules from OSIS/ThML sourse. A module name can be optionally specified.
+
+OPTIONS
+       -l  Use long div names in the ThML files.
+
+       -i  exports to IMP formal instead of creating a module.
+
+       -fT|-fO
+           Set the importer to ThML or OSIS format respectively. By default it attempts to autodetect.
+
+Authors
+       This manual page was written by Dmitrijs Ledkovs <dmitrij.ledkov@gmail.com> for Debian project but may be used by others.
+
+SEE ALSO
+SWORD 1.8.1+dfsg                                                              2020-02-13                                                                 XML2GBS.1(1)
+
+*/

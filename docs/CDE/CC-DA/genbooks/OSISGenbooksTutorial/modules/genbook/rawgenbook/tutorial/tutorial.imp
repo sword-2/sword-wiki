@@ -1,0 +1,77 @@
+$$$/Book Title
+
+<title>OSIS Genbooks tutorial</title>
+<title type="x-author">Benpmorgan; Domcox</title>
+<p>Copyright - GNU Free Documentation License 1.3</p>
+
+<p>
+	<figure src="../../sword/sword.bmp"/>
+</p>
+
+
+$$$/Book Title/Chapter 1
+
+<p>This is Chapter 1, the introduction. 
+<reference osisRef="Gen.1.1">Genesis 1:1</reference> is the first verse in the Bible. 
+<reference osisRef="Rev.22.21">Rev 22:21</reference> is the last verse in the Bible. 
+<reference osisRef="Ps.119">Psalm 119</reference> is the longest chapter in the Bible. 
+<reference osisRef="Prov.1-Prov.9">Proverbs 1-9</reference> introduce the book of Proverbs. 
+<reference osisRef="John.1-John.1.18">John 1:1-18</reference> introduces the book of John. 
+<reference osisRef="2Cor.6.14-2Cor.7.1">2 Corinthians 6:14-7:1</reference> teaches about holiness.
+</p>
+
+
+$$$/Book Title/Chapter 1/
+
+<title>Section 1</title>
+<p>This is chapter 1, section 1.</p>
+<table>
+<row>
+<cell>
+<hi type="bold">Column 1 Label</hi>
+</cell>
+<cell>
+<hi type="bold">Column 2 Label</hi>
+</cell>
+</row>
+<row>
+<cell>Column 1, Row 1</cell>
+<cell>Column 2, Row 1</cell>
+</row>
+<row>
+<cell>Column 1, Row 2</cell>
+<cell>Column 2, Row 2</cell>
+</row>
+</table>
+
+$$$/Book Title/Chapter 1/
+
+<title>Section 2</title>
+<p>This is chapter 1, section 2.<note type="x-footnote" n="1">Footnote</note>
+</p>
+
+$$$/Book Title/Chapter 2
+
+<p>This is Chapter 2, the introduction.<note type="x-endnote" n="i">Endnote</note>
+</p>
+
+
+$$$/Book Title/Chapter 2/
+
+<title>Section 1</title>
+<p>This is chapter 2, section 1.</p>
+
+$$$/Book Title/Chapter 2/
+
+<title>Section 2</title>
+<p>This is chapter 2, section 2.</p>
+<p>Default <hi type="italic">Italics</hi>
+</p>
+<p>Default <hi type="bold">Bold</hi>
+</p>
+<p>Default<hi type="super">SuperScript</hi>
+</p>
+<p>Default<hi type="sub">Subscript</hi>
+</p>
+<p>This is Hebrew: <foreign xml:lang="he">עִבְרִי</foreign>.</p>
+

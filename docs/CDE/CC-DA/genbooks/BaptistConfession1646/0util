@@ -1,0 +1,33 @@
+#!/bin/sh
+#operate some SWORD utilities and selected module files
+#operation examples: ./0util m2i, ./0util m2o, ./0util vs46, etc
+
+main() {
+	case $1 in
+		"m2i") #generate mod2imp output with mod2imp utility
+			printf '\nThe shell script case m2i succeeded in once instance when the SWORD module location was set by the SWORD engine installmgr. That location is not necesarily the same place where git clone or curl will download.'
+			mod2imp BaptistConfession1646 > mod2imp_output/mod2imp_output.txt #assume it uses the module unique identifier in the conf file
+			vim mod2imp_output/mod2imp_output.txt #read what had been output
+			#xml2gbs -i BaptistConfession1646 #unused, advertised ability to imp format.
+			;;
+		"m2o") #operate mod2osis utility
+			#reports warning. Says to get document from source in conf file instead of extracting it from SWORD project
+			cd /usr/share/sword
+			mod2osis BaptistConfession1646
+			;;
+		"vs46") #open swift code that tests parsing the bdt for 1646 confession
+			vim Tests/ex1bapconf/bdtFile.swift
+			;;
+		"vi") #open the file produced by mod2imp
+			vim mod2imp_output/mod2imp_output.txt
+			;;
+		*)
+			printf 'unexpected argument %s, exiting' "$1"
+			exit 1
+		;;
+		esac
+	exit 0
+} #end details
+
+main "$@"; exit
+

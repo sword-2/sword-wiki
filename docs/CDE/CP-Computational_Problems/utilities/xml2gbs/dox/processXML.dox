@@ -1,0 +1,14 @@
+/**
+\page processXML processXML
+
+
+This is the complex function in the file. 
+
+
+Some questions ...
+<ul>
+	<li>Does the code process all or just a portion of the tags defined in the OSIS Users Manual such as: work, creator, publisher? Somene may become confused if they think there is a difference between the software logic and the OSIS user's manual.</li>
+	<li>Where are the variables that match the structure of the content to be displayed?</li>
+	<li>Will the imp format allow the program to be built standalone and run standalone?</li>
+</ul>
+*/

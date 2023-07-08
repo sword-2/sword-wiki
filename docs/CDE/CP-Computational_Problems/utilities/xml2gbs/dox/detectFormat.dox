@@ -1,0 +1,19 @@
+/**
+\page detectFormat detectFormat
+
+This function was good for a spot check. It read through all the lines of the input file and checked each one for certain starting tags.
+
+Since the function was limited to a spot check, would it be good to encourage the operator to do a more thorough check to ensure the content will load to the SWORD engine or front end? This is to prevent unexpected data from getting in and altering how the SWORD program will respond.
+
+
+Some tools that might do partial checks include ...
+<ul>
+	<li>xmllint. If the input is OSIS / XML and there is a schema, xmllint might partly check the file is valid. But xmllint doesn't guarantee the file will load to a SWORD engine or front end.</li>
+	<li>file command. The file command was run on a SWORD *bdt file and it reported the file as HTML format. XML format was expected so the result was not entirely reliable.</li>
+	<li>ls -l. The first character describes file type. - is for regular file. This status is not expected to identify a valid OSIS file.</li>
+	<li>stat command.</li>
+	<li>file name extensions. Maybe it could identify files intended to be loaded? Extensions were not observed in the existing SWORD documentation but were sometimes used on files like *.bdt, *.idx, etc.</li>
+</ul>
+*/
+
+

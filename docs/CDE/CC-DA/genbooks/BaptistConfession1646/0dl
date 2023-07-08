@@ -1,0 +1,38 @@
+#!/bin/sh
+#Download confessions initially observed on internet. These ones were not in xml format.
+#operation examples from own folder: ./0dl 1, ./0dl 2, ./0dl 3
+
+main() {
+	case $1 in
+		"dl1") #pdf from the New Orleans Baptist Theological Seminary (nobts)
+			url='https://www.nobts.edu/baptist-center-theology/confessions/First_London_Baptist_Confession_of_Faith_1646.pdf'
+			oFile=downloads/baptistconfession1646.pdf
+			curl "$url" -o "$oFile"
+			#open the downloaded file - optional
+				#fimgs "$oFile" #mahy require libraries to be installed. opens the pdf in a Linux terminal with fimgs [fbi improved (fim) ghostscript]
+			;;
+		"dl2") #A html format
+			url='https://www.reformedreader.org/ccc/1646lbc.htm'
+			oFile=downloads/apuritansmind.htm
+			curl "$url" -o "$oFile"
+			#open the downloaded file - optional
+				#vim $oFile
+				#w3m $oFile
+			;;
+		"dl3") #Another html format
+			url='https://www.apuritansmind.com/creeds-and-confessions/an-appendix-to-the-baptist-confession-of-faith-by-benjamin-cox/'
+			oFile=downloads/apuritansmind.htm
+			curl "$url" -o "$oFile"
+			#open the downloaded file - optional
+				#vim $oFile
+				#w3m $oFile
+			;;
+		*)
+			printf 'unexpected argument %s, exiting' "$1"
+			exit 1
+		;;
+		esac
+	exit 0
+} #end details
+
+main "$@"; exit

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- xml.xsd was downloaded from the net to allow running some programs without internet access -->
+<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd" />
+<!-- the version which requires internet <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2009/01/xml.xsd" /> -->
+
+
+<!-- Simple or building block elements used later for the document. -->
+	<xs:element name="date">
+		<xs:complexType mixed="true">
+			<xs:attribute name="event" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="p">
+		<xs:complexType mixed="true">
+			<xs:attribute name="id" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="title" type="xs:string"/>
+
+	<xs:element name="contributor">
+		<xs:complexType mixed="true">
+			<xs:attribute name="role" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="creator">
+		<xs:complexType mixed="true">
+			<xs:attribute name="role" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="subject">
+		<xs:complexType mixed="true">
+			<xs:attribute name="type" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="source" type="xs:string"/>
+
+	<xs:element name="coverage" type="xs:string"/>
+
+	<xs:element name="rights">
+		<xs:complexType mixed="true">
+			<xs:attribute name="type" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="item" type="xs:string"/>
+
+	<xs:element name="list">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Subclass BR -->
+	<xs:element name="div_BR">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="title"/>
+				<xs:element ref="p" maxOccurs="17"/>
+			</xs:sequence>
+			<xs:attribute name="type" type="xs:string"/>
+			<xs:attribute name="osisID" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Subclass BS -->
+	<xs:element name="div_BS">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="title"/>
+				<xs:element ref="p" maxOccurs="39"/>
+			</xs:sequence>
+			<xs:attribute name="type" type="xs:string"/>
+			<xs:attribute name="osisID" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Subclass BT -->
+	<xs:element name="div_BT">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="title"/>
+				<xs:element ref="p" maxOccurs="25"/>
+			</xs:sequence>
+			<xs:attribute name="type" type="xs:string"/>
+			<xs:attribute name="osisID" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Subclass BV -->
+	<xs:element name="div_BV">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="title"/>
+				<xs:element ref="p" maxOccurs="68"/>
+			</xs:sequence>
+			<xs:attribute name="type" type="xs:string"/>
+			<xs:attribute name="osisID" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Subclass BX -->
+	<xs:element name="div_BX">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="title"/>
+				<xs:element ref="p" maxOccurs="171"/>
+			</xs:sequence>
+			<xs:attribute name="type" type="xs:string"/>
+			<xs:attribute name="osisID" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Subclass FCC pt 1 -->
+	<xs:element name="div_FCC_pt1">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="title"/>
+				<xs:element ref="p" maxOccurs="1"/>
+				<xs:element ref="list"/>
+			</xs:sequence>
+			<xs:attribute name="type" type="xs:string"/>
+			<xs:attribute name="osisID" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Subclass FCC pt 2 -->
+	<xs:element name="div_FCC_pt2">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="title"/>
+				<xs:element ref="p" maxOccurs="13"/>
+			</xs:sequence>
+			<xs:attribute name="type" type="xs:string"/>
+			<xs:attribute name="osisID" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Subclass FCC pt 3 -->
+	<xs:element name="div_FCC_pt3">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="title"/>
+				<xs:element ref="p" maxOccurs="11"/>
+				<xs:element ref="list"/>
+			</xs:sequence>
+			<xs:attribute name="type" type="xs:string"/>
+			<xs:attribute name="osisID" type="xs:string"/>
+	</xs:complexType>
+	</xs:element>
+
+
+
+<!-- tags for the document schema, which uses the building blocks above -->
+<xs:element name="club">
+<xs:complexType>
+<xs:sequence>
+	<xs:element name="osisText">
+	<xs:complexType>
+	<xs:sequence>
+			<xs:element name="header">
+			<xs:complexType>
+			<xs:sequence>
+				<xs:element name="revisionDesc">
+				<xs:complexType>
+				<xs:sequence>
+					<xs:element ref="date"/>
+					<xs:element ref="p"/>
+				</xs:sequence>
+				<xs:attribute name="resp" type="xs:string"/>
+				</xs:complexType>
+				</xs:element>
+				<xs:element name="work">
+				<xs:complexType>
+				<xs:sequence>
+					<xs:element ref="title"/>
+					<xs:element ref="contributor"/>
+					<xs:element ref="creator"/>
+					<xs:element ref="date"/>
+					<xs:element ref="subject"/>
+					<xs:element ref="source"/>
+					<xs:element ref="coverage"/>
+					<xs:element ref="rights"/>
+				</xs:sequence>
+				<xs:attribute name="osisWork" type="xs:string"/>
+				</xs:complexType>
+				</xs:element>
+				<xs:element name="workPrefix"/>
+			</xs:sequence>
+			</xs:complexType>
+			</xs:element>
+
+
+			<xs:element ref="div_BR"/>
+
+			<xs:element ref="div_BS"/>
+
+			<xs:element ref="div_BT"/>
+
+			<xs:element ref="div_BV"/>
+
+			<xs:element ref="div_BX"/>
+
+			<xs:element ref="div_FCC_pt1"/>
+
+			<xs:element ref="div_FCC_pt2"/>
+
+			<xs:element ref="div_FCC_pt3"/>
+
+	</xs:sequence>
+	<xs:attribute name="osisRefWork" type="xs:string"/>
+	<xs:attribute name="osisIDWork" type="xs:string"/>
+	<xs:attribute ref="xml:lang" use="optional"/>
+	</xs:complexType>
+	</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
