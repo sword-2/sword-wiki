@@ -547,7 +547,7 @@ There are no agreements. The tables just identify a status from one person on ex
 
 	<tr>
 		<td>Linux</td>
-		<td>A name collision on swift was observed. On Ubuntu Linux, man swift produced some records including one named "swift" that had a homepage for <a href="https://launchpad.net/swift">OpenStac bject Storage (swift)</a>.</td>
+		<td>A name collision on swift was observed. On Ubuntu Linux, man swift produced some records including one named "swift" that had a homepage for <a href="https://launchpad.net/swift">OpenStack Object Storage (swift)</a>.</td>
 		</tr>
 
 
@@ -588,6 +588,7 @@ There are no agreements. The tables just identify a status from one person on ex
 
 
 <br><br>
+The table below starts to list some programs with potential to shift from C/C++ to swift. The list might be expanded, but as more programs are added it looks more and more work ahead. A sermon titled <a href="https://www.faithtoyou.com/matthew-62434">Why work</a> talks about work, but it is a generic bible lesson and not something specific to software like shifting languages.
 <table border=1 id=c4>
 	<caption>Table c4 - Agreement(s) to [consider] shift language from C/C++</caption>
 	<tr><th>License affiliation</th><th>Program name</th><th>Source code</th><th>comment(s)</th></tr>
@@ -595,8 +596,14 @@ There are no agreements. The tables just identify a status from one person on ex
 	<tr><th>GNU / FSF</th><th>apt</th><th><a href="https://salsa.debian.org/apt-team/apt">link</a></th><th>The presence of C/C++ was observed for the program according to compiler flags in CMakeLists.txt. Consider shift to swift. Currently an individual attempting bible development does not have the swift development kit in the apt repo (on one Ubuntu at least). This was assumed to be an option to get it there.</th></tr>
 	<tr><th>GNU / FSF</th><th>libxml2-utils</th><th><a href="https://salsa.debian.org/xml-sgml-team/libxml2">link</a></th><th>Assume C language was present in the program since the repo initially listed several *.c files. Consider shift to swift. package contains tool xmllint, and xmllint will help validate commentary from pastors that is put in xml format. It may also help validate bible text stored in xml format.</th></tr>
 	<tr><th>GNU / FSF</th><th>ffmpeg</th><th><a href="https://salsa.debian.org/multimedia-team/ffmpeg">link</a></th><th>At least some C / C++ language was estimated in this program due to the Makefile containing statements about .c, .cpp, and .h files. Consider shift to swift. Tool will help do basic editing on Sunday services recorded to video, such as separating video into parts for the sermon and worship music.</th></tr>
+	<tr><th>GNU / FSF</th><th>vim</th><th><a href="https://salsa.debian.org/vim-team/vim">link</a></th><th>C / C++ language was estimated in this program due to a bunch of *.c files in the src folder. Consider shift to swift. The program will help or prepare to review past bible apps, develop new code, and process data files containing scripture, commentary, music, and many other church files.</th></tr>
+
+	<tr><th>GNU / FSF</th><th>ncurses</th><th><a href="https://salsa.debian.org/debian/ncurses">link</a></th><th>C / C++ language was estimated in this program because there was a folder named c++, .h files were in the include folder, and more .c and .h files in the ncurses folder. Consider shift to swift. The program may facilitate simple (text) user interfaces for bible programs. Simple user interfaces may be useful prior to moving on to more advanced user interfaces.</th></tr>
+
+	<tr><th>GNU / FSF</th><th>dictd</th><th><a href="https://salsa.debian.org/debian/dictd">link</a></th><th>C / C++ language was estimated in this program because there were .c, .h., .l, and .y files in the root folder. Consider shift to swift. The program will be an option for some people to look-up word definitions in the future, something that can happen during study of a verse.</th></tr>
 
 </table>
+
 
 <!--
 unused
