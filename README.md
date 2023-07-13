@@ -10,7 +10,7 @@ The repo is an ongoing attempt to enhance some articles on the CrossWire develop
 - [JSword](https://www.crosswire.org/jsword/svn.html). The Java implementation not yet analyzed here.
 
 
-Pieces of documents that were not yet observed on the crosswire wiki:
+Pieces of documents that were not yet observed on the CrossWire wiki:
 - [concept/goals, agreements, etc](https://sword-2.github.io/sword-wiki/1a_initial/1_concept/1.html)
 - [gaps and overlaps](https://sword-2.github.io/sword-wiki/1a\_initial/4\_capability\_gaps\_and\_overlaps/4.html)
 - [ideas for non material approaches](https://sword-2.github.io/sword-wiki/1a\_initial/6\_ideas\_for\_non\_material\_approaches/6.html)
@@ -28,5 +28,5 @@ Data and Analysis (DA) for some existing models of SWORD modules
 
 
 ## Disclaimer
-The repo is unrelated to Caesar (Government). However, some filing ideas may be copied from Caesar.
+The repo may contain some filing concepts observed from the local Caesar (Government). The bible information intends to distribute as much a possible with a lot of the control being just preserving scripture, word definitions, and teachings. Thus the purpose of bible distribution may be different than the purpose of the filing system.
 
