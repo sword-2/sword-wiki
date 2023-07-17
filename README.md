@@ -2,15 +2,10 @@
 
 ## Comments
 
-The repo is an ongoing attempt to enhance some articles on the CrossWire developers' wiki and maybe some software. It is ongoing because it became messy due to unplanned investigation, and training/learning. The following web-sites existed first ...
-
-- [CrossWire developers' wiki](https://wiki.crosswire.org/Main_Page). 
-- [bishop front-end](http://git.crosswire.org/main/bishop.git) also known as an app on Google Play [and possibly the Apple store].
-- [sword tunk](https://crosswire.org/svn/sword/trunk/) for C/C++ source code
-- [JSword](https://www.crosswire.org/jsword/svn.html). The Java implementation not yet analyzed here.
+The repo was preparation to help, enhance, or fill in some articles already started on [CrossWire developers' wiki](https://wiki.crosswire.org/Main_Page). The scope is mostly small pieces of code since the whole project had not been learned yet.
 
 
-Pieces of documents that were not yet observed on the CrossWire wiki:
+Pieces of documents that might not exist yet on the CrossWire wiki:
 - [concept/goals, agreements, etc](https://sword-2.github.io/sword-wiki/1a_initial/1_concept/1.html)
 - [gaps and overlaps](https://sword-2.github.io/sword-wiki/1a\_initial/4\_capability\_gaps\_and\_overlaps/4.html)
 - [ideas for non material approaches](https://sword-2.github.io/sword-wiki/1a\_initial/6\_ideas\_for\_non\_material\_approaches/6.html)
