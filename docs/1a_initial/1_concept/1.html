@@ -277,23 +277,43 @@ Teaching aids use the concept that computer memory can aid human memory (referen
 
 	<tr>
 		<td>a4-1</td>
-		<td>-</td>
-		<td>maintain / redeem code.</td>
-		<td>-</td>
-		<td>Perspectives on Science and Christian Faith Volume 73, Number 4, December 2021. Article: Teaching the Beauty of God in Computer Programming and Design by Grace Lew</td>
+		<td>*1</td>
+		<td>maintain / redeem code - C/C++ engine</td>
+		<td>Existing</td>
+		<td><a href="https://sword-2.github.io/sword-wiki/1a\_initial/8b_references/8b.html#PSCF">Teaching the Beauty of God in Computer Programming and Design</a>
+		<br>Investigate the potential to upgrade existing C/C++ code to swift without affecting the ability of the C/C++ to operate existing apps. Convert small pieces of code at a time and report feedback about the suitabiity of existing C/C++ code to undergo a conversion.
+		</td>
 	</tr>
-
 
 	<tr>
 		<td>a4-2</td>
 		<td>*2</td>
-		<td>Software size control</td>
-		<td>Consideration</td>
-		<td>Continuously assess if there are opportunities to reduce code size. This may reduce complexity, a barrier that causes people to avoid participation.</td>
+		<td>maintain / redeem code - Java engine</td>
+		<td>Existing</td>
+		<td>Same reference as a4-1.</td>
+	</tr>
 
 
 	<tr>
 		<td>a4-3</td>
+		<td>*3</td>
+		<td>maintain / redeem code - front end(s)</td>
+		<td>-</td>
+		<td>Same reference as a4-1. To be determined (TBD). Maybe attempt to synchronize terminal (ncurses), Cordova, and web browser (html, javascript) interfaces.</td>
+	</tr>
+
+
+
+	<tr>
+		<td>a4-4</td>
+		<td>*2</td>
+		<td>Software size control</td>
+		<td>Consideration</td>
+		<td>Continuously assess if there are opportunities to reduce code size, a barrier that prevents participation and increase risk of issues.</td>
+
+
+	<tr>
+		<td>a4-5</td>
 		<td>-</td>
 		<td>test, evaluation, defect reporting</td>
 		<td>-</td>
@@ -301,24 +321,16 @@ Teaching aids use the concept that computer memory can aid human memory (referen
 	</tr>
 
 	<tr>
-		<td>a4-4</td>
+		<td>a4-6</td>
 		<td>*4</td>
 		<td>depenencies beyond scope</td>
 		<td>Beyond project scope</td>
-		<td>Goal is an accounting method for perceived issues about dependencies that could or will affect the project, but are outside the project's scope. Coding can require minimal training to learn, but still is not an original activity. It depends on tools which in turn depend on other software. Issues with tools, schedules, risks/bugs, etc might be accounted for.</td>
+		<td>identify dependencies that could or will affect the project, but are outside the project's place. Issues with tool dependencies, schedules, risks/bugs.</td>
 	</tr>
 
 
 	<tr>
-		<td>a4-5</td>
-		<td>*5</td>
-		<td>Upgrade previous C/C++ programming language to swift</td>
-		<td>Existing</td>
-		<td>Limited to doing only small pieces at a time. Previous code has to be comprehended along with any conversion. Also, decisions will be necessary as to whether a conversion will be total or partial, partial meaning keeping previous C/C++.</td>
-	</tr>
-
-	<tr>
-		<td>a4-6</td>
+		<td>a4-7</td>
 		<td>*6</td>
 		<td>perl programming langauge</td>
 		<td>consideration</td>
@@ -331,10 +343,9 @@ Teaching aids use the concept that computer memory can aid human memory (referen
 </table>
 
 	<ul>
-		<li>*2 - There may be little counsel as to how to limit code size.</li>
-		<li>*4 - The documentation about code could be less for projects that are not open source.</li>
-		<li>*5 - Programs that are not open source may have uncertainty as to what programming language had been used.</li>
-		<li>*6 - Like a4-2, the counsel on software is likely limited.</li>
+		<li>*1, *2, *3 - The documentation about code for non-open source projects may be more limited.</li>
+		<li>*4 - There may be little counsel as to how to limit code size.</li>
+		<li>*7 - Like a4-4, there may not be much counsel on software.</li>
 	</ul>
 
 
@@ -519,19 +530,19 @@ There are no agreements. Instead there can be accounting for goals that go out o
 	<tr><th>Goal</th><th>Organization</th><th>agreement(s)</th></tr>
 
 	<tr>
-		<td>a4-4</td>
+		<td>a4-6</td>
 		<td>Stack Overflow</td>
 		<td>Learning efficiency may be reduced if the organization of information about a language is more random. Consider selecting/maintaining tags to connect experts to questions by sorting questions into specific, well-defined categories. Tags observed for swift in the <a href="https://stackoverflow.com/tags/swift/info">About page</a> appeared limited for use on Linux. The tag tvos may be great for certain environments, but the Ubuntu server 20.04 server doesn't have tvos. Categories in the file <a href="https://github.com/apple/swift/blob/main/CODE_OWNERS.TXT">CODE_OWNERS.TXT</a> might be usable on Apple and Linux.</td></tr>
 
 
 
-	<tr><td>a4-4</td><td>Stack Exchange</td><td>Same comments for reduced efficiency as Stack Overflow. Are the tags on a <a href="https://softwareengineering.stackexchange.com/tags">stackexchange web page<a>, different than Stack Overflow?</td></tr>
+	<tr><td>a4-6</td><td>Stack Exchange</td><td>Same comments for reduced efficiency as Stack Overflow. Are the tags on a <a href="https://softwareengineering.stackexchange.com/tags">stackexchange web page<a>, different than Stack Overflow?</td></tr>
 
-	<tr><td>a4-4</td><td>Stackoverflow</td>
+	<tr><td>a4-6</td><td>Stackoverflow</td>
 	<td>Consider identifying if a post has inaccurate/old content? One post titled <a href="https://stackoverflow.com/questions/65707094/best-way-to-append-a-string-to-a-text-file-in-swift">Best way to append a string to a text file in Swift</a> reported inability to append to a file. There were similar posts where a cross reference was not observed to the previous post like <a href="https://stackoverflow.com/questions/27327067/append-text-or-data-to-text-file-in-swift">Append text or data to text file in Swift</a></td></tr>
 
 	<tr>
-	<td>a4-4</td><td>Stackoverflow</td>
+	<td>a4-6</td><td>Stackoverflow</td>
 	<td>Consider checking if an anomaly reported about <a href="https://stackoverflow.com/questions/8598354/why-is-msvc10-ignoring-my-pragma-warningdisable-4251">Why is MSVC10 ignoring my #pragma warning(disable: 4251)?</a> is obsolete. Code in the anomaly was observed in a SWORD project source file xml2gbs.cpp. MSVC might be outside of project scope, and cleaning up the SWORD code will help forget the anomaly. The author of this file only has one laptop and is only running Ubuntu server 20.04 - thus is not capable of installing or running MSVC to see if the anomaly is obsolete.
 	<br>#ifdef _MSC_VER
 	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#pragma warning( disable: 4251 )
@@ -540,7 +551,7 @@ There are no agreements. Instead there can be accounting for goals that go out o
 
 
 
-	<tr><td>a4-4</td><td>Wikipedia</td><td>Maintain the internet server to supply documents for <a href="https://en.m.wikipedia.org/wiki/The_SWORD_Project">The SWORD Project</a> and the <a href="https://wiki.crosswire.org/Main_Page">CrossWire Developers' wiki</a>.</td></tr>
+	<tr><td>a4-6</td><td>Wikipedia</td><td>Maintain the internet server to supply documents for <a href="https://en.m.wikipedia.org/wiki/The_SWORD_Project">The SWORD Project</a> and the <a href="https://wiki.crosswire.org/Main_Page">CrossWire Developers' wiki</a>.</td></tr>
 
 	<tr><td>a1-1</td><td>World Wide Web Consortium (W3C)</td><td>Develop web standards and lead the web to its full potential. Some parts of the SWORD project apply internet standards for browser interfaces.</td></tr>
 
@@ -548,7 +559,9 @@ There are no agreements. Instead there can be accounting for goals that go out o
 	<td>The W3C recommendations are impressive. Newbies could have a hard reading a large recommendation and find it is easier to get a small code example. Consider supplying examples and descriptions of how to apply HTML, JavaScript, and CSS for the newbies to build and maintain web browser interfaces.</td>
 	</tr>
 
-	<tr><td>a4-4</td><td>Free Software Foundation</td><td>Maintain currency of the listing for <a href="https://directory.fsf.org/wiki/The_SWORD_Project">The SWORD Project in the Free Software Directory</a>.</td></tr>
+	<tr><td>a1-1</td><td>Free Software Foundation</td><td>Maintain currency of the listing for <a href="https://directory.fsf.org/wiki/The_SWORD_Project">The SWORD Project in the Free Software Directory</a>.</td></tr>
+
+	<tr><td>a1-1</td><td>Zondervan (News Corp)</td><td>With respect to <a href="https://www.biblegateway.com/">biblegateway.com's</a> statement of faith for the doctine of scripture, consider helping readers be aware of which translation they are reading when there is more than one version. The doctrine is good, but sometimes there are multiple versions like NASB (1971, 1977, 1995, 2020) and NIV (1985, 2011). Would more detail in the pick list, a help icon on the pick list, or a FAQ prevent inaccurate assumptions?</td></tr>
 
 </table>
 
@@ -575,24 +588,24 @@ There are no agreements. Instead there can be accounting for goals that go out o
 
 
 <br><br>
-An information sheet from Caesar used the term overarching software community. That sounds good to make things simple, but if any topics are encountered that look like less than a whole community, the division may limit a developer to not thinking or acting that way.
+If any topics look like there is a scope less than the overarching software community, there might be a limitation in what can be attempted.
 <table border=1 id=c2>
 	<caption>Table c2 - overarching community agreements</caption>
 	<tr><th>Goal</th><th>Organization(s)</th><th>agreement(s)</th></tr>
 
-	<tr><td>a4-4</td>
-	<td>Microsoft</td><td>A website titled <a href="https://github.blog/2023-01-20-sunsetting-subversion-support">Sunsetting Subversion support</a> reported SVN [<a href="https://subversion.apache.org/">Apache Subversion</a>] support would discontinue sometime in 2024 to reduce maintenance cost. This presented a division between version control systems like running one or the other instead of some type of interoperability. git had some cool things and was being run, but it would be harder to convince other parts of the SWORD project running SVN that they should convert. Nothing was observed like the W3C recommendations that facilitated interoperability between different browsers and servers. Also, a related statement was not observed on the <a href="https://subversion.apache.org/">Apache SVN</a> page about future efforts to be inter-operable or not with other version control. K-12 computer science standards in California are out of scope, but these had concept of being inclusive in computing. A child who learned those goals could be surprised upon entering the workforce and learning about dropping interoperability.</td>
+	<tr><td>a4-6</td>
+	<td>Microsoft</td><td>A website titled <a href="https://github.blog/2023-01-20-sunsetting-subversion-support">Sunsetting Subversion support</a> reported SVN [<a href="https://subversion.apache.org/">Apache Subversion</a>] support would discontinue sometime in 2024 to reduce maintenance cost. This presented a division between version control systems as opposed to interoperability from some standard. A related statement was not observed on the <a href="https://subversion.apache.org/">Apache SVN</a> page about interoperability. github had some good qualities, but when there was division, it would be harder to encourage another part of the project using SVN to convert over.</td>
 	</tr>
 	
-	<tr><td>a4-4</td>
+	<tr><td>a4-6</td>
 		<td>Apple</td>
-		<td>The Swift package manager doesn't work with the subversion (SVN) version control system according to some <a href="https://forums.swift.org/t/using-swift-package-manager-with-version-control/61738">websites</a>. But it does work with git version control. If Caesar's information sheet had this disclaimer, someone attempting the information sheet could know ahead of time about this additional project change. Was "sunsetting" SVN a business decision like Microsoft was doing?</td>
+		<td>The Swift package manager doesn't work with the subversion (SVN) version control system according to some <a href="https://forums.swift.org/t/using-swift-package-manager-with-version-control/61738">websites</a>. But it does work with git version control. Have not tried having two version control systems in the same project root folder, but a minimum clutter might be expected. A newbie programmer seeing files for 2 version control systems might be detered by a greater learning curve. Was omitting SVN a business decision like Microsoft was doing?</td>
 		</tr>
 
 
-	<tr><td>a4-4</td>
+	<tr><td>a4-6</td>
 	<td>Apple, Linux</td><td>Core graphics API for Linux:
-	<br>Web sites such as listed below claimed the Core Graphics API had not yet reached Linux. Some bibles have pictures such as maps in the back. Also, there are simple drawings that might be attempted for church presentations. A disclaimer of which APIs are not there yet helps avoid this being a surprise in the middle of coding. Assuming software projects have a bad reputation for surprise delays and cost increases, the surprise can be passed along by not seeing the disclaimer in the beginning.
+	<br>Web sites such as listed below claimed the Core Graphics API had not yet reached Linux. Some bibles have pictures such as maps in the back. Also, there are simple drawings that might be attempted for church presentations. A disclaimer on the graphics API was not known about when starting to learn swift, a surprise that might delay applications.
 		<ul>
 			<li><a href="https://stackoverflow.com/questions/65979488/generate-images-in-pure-swift-without-uikit">Generate images in pure Swift, without UIKit?</a></li>
 			<li><a href="https://swiftpackageindex.com/nicklockwood/SVGPath">SVGPath</a></li>
@@ -600,9 +613,9 @@ An information sheet from Caesar used the term overarching software community. T
 		</td></tr>
 
 
-	<tr><td>a4-4</td>
+	<tr><td>a4-6</td>
 		<td>Linux</td>
-		<td>A name collision on swift was observed. On Ubuntu Linux, the manual command (man swift) produced some records including one named "swift" that had a homepage for <a href="https://launchpad.net/swift">OpenStack Object Storage (swift)</a>.</td>
+		<td>A name collision on swift was observed. On Ubuntu Linux, the manual command (man swift) produced some records including one named "swift" that had a homepage for <a href="https://launchpad.net/swift">OpenStack Object Storage (swift)</a>. Caesar's informtion sheet had the R symbol for registered trademark of Apple, Inc. The OpenStack web site said the programming language was python, a trademark of the Python Softwre Foundation in the United States and/or other countries. Unsure how to summarize the situation.</td>
 		</tr>
 
 
@@ -615,7 +628,7 @@ An information sheet from Caesar used the term overarching software community. T
 	<tr><th></th><th>Organization</th><th>agreement(s)</th></tr>
 
 
-	<tr><td>a4-4</td>
+	<tr><td>a4-6</td>
 		<td>Apple</td>
 		<td>If an anomaly is perceived, a newbie be less certain of the repeatability of their swift program.</td>
 
@@ -628,13 +641,13 @@ An information sheet from Caesar used the term overarching software community. T
 		</td></tr>
 
 
-<tr><td>a4-4</td>
+<tr><td>a4-6</td>
 	<td>Apple</td>
 	<td>Switching form C/C++ to swift might have a temporary increase in risk if C++ exceptions will not be <a href="https://github.com/apple/swift/blob/main/docs/CppInteroperability/CppInteroperabilityStatus.md">implementing Experimental support for Exceptions</a>.</td>
 </tr>
 
 
-	<tr><td>a4-4</td>
+	<tr><td>a4-6</td>
 	<td>Apple</td>
 	<td>Absence of libraries that were available before in C/C++ may demotivate someone considering to switch languages. The library of Congress XML format / MAchine-Readable Cataloging (MARC) 21 is out of scope, but while learning XML, it was observed a library had been available in C/C++ but not for swift per a Wikipedia on <a href="https://wiki.code4lib.org/Working_with_MARC#MARC_Programming_Libraries">Working with MARC</a>. It turned out to be easy to make a grossly simple reader using swift's XMLParser, but anyone just looking at the library status could question why they have to loose a capability.</td></tr>
 
@@ -643,48 +656,49 @@ An information sheet from Caesar used the term overarching software community. T
 
 
 <br><br>
-A bunch of programs might be operated for goal a3 church business. A programmer could hope that examination of the source code for support programs would result in many examples of swift code or other safe programming languages, per Caesar's information sheet. However, instead of hope there was disappointment. A sermon <a href="https://sword-2.github.io/sword-wiki/1a_initial/8b_references/8b.html#church">"Why Work?"</a> was put in the church references.
+A bunch of programs might be operated for goal a3 church business. A programmer could hope that examination of the source code for such programs would result in many examples of converting C/C++ to swift code. Instead of hope there was initially disappointment. A sermon <a href="https://sword-2.github.io/sword-wiki/1a_initial/8b_references/8b.html#church">"Why Work?"</a> was put in the church references while contemplating the potentia for increased work to learn howto convert instead of copying prepared examples.
 
 <table border=1 id=c4>
 	<caption>Table c4 - Out of scope C/C++ versus church business</caption>
 	<tr><th>Goal</th><th>Program name</th><th>Source code</th><th>Church business</th><th>language comment(s)</th></tr>
 
-	<tr><td>a4-4</td><td>apt</td><td><a href="https://salsa.debian.org/apt-team/apt">link</a></td><td>only some developer(s)</td><td>Some C/C++ was observed in compiler flags in CMakeLists.txt. Consider shift to swift. swift development kit not observed in the apt repo (on one Ubuntu at least).</td></tr>
+	<tr><td>a4-6</td><td>apt</td><td><a href="https://salsa.debian.org/apt-team/apt">link</a></td><td>only some developer(s)</td><td>Some C/C++ was observed in compiler flags in CMakeLists.txt. Consider shift to swift. swift development kit not observed in the apt repo (on one Ubuntu at least).</td></tr>
 
 
-<tr><td>a4-4</td><td>libxml2-utils</td><td><a href="https://salsa.debian.org/xml-sgml-team/libxml2">link</a></td><td>The package contains tool xmllint. That tool can validate any church files put into XML format like bible text, commentary from pastors, etc.</td><td>C language was observed since the repo initially listed several *.c files.</td></tr>
+<tr><td>a4-6</td><td>libxml2-utils</td><td><a href="https://salsa.debian.org/xml-sgml-team/libxml2">link</a></td><td>The package contains tool xmllint. That tool can validate any church files put into XML format like bible text, commentary from pastors, etc.</td><td>C language was observed since the repo initially listed several *.c files.</td></tr>
 
-<tr><td>a4-4</td><td>ffmpeg</td><td><a href="https://salsa.debian.org/multimedia-team/ffmpeg">link</a></td><td>Basic editing on a Sunday service recorded to video. Separate sermon and worship music. Add subtitles to worship music.</td><td>The Makefile contained statements about .c, .cpp, and .h files.</td></tr>
-
-
-<tr><td>a4-4</td><td>vim</td><td><a href="https://salsa.debian.org/vim-team/vim">link</a></td><td>review past bible source code, develop new code, enter/edit text for commentary, music lyrics, etc.</td><td>C / C++ language was estimated from a bunch of *.c files in the src folder.</td></tr>
+<tr><td>a4-6</td><td>ffmpeg</td><td><a href="https://salsa.debian.org/multimedia-team/ffmpeg">link</a></td><td>Basic editing on a Sunday service recorded to video. Separate sermon and worship music. Add subtitles to worship music.</td><td>The Makefile contained statements about .c, .cpp, and .h files.</td></tr>
 
 
-	<tr><td>a4-4</td><td>ncurses</td><td><a href="https://salsa.debian.org/debian/ncurses">link</a></td><td>Simple (terminal) user interfaces for bible programs prior to attempting more advanced user interfaces. ncurses API's to matche cordova might coordinate the user interfaces some more.</td><td>C / C++ language was estimated for ncurses because there was a folder named c++, .h files in the include folder, and more .c and .h files in the ncurses folder.</td></tr>
-
-	<tr><td>a4-4</td><td>dictd</td><td><a href="https://salsa.debian.org/debian/dictd">link</a></td><td>An option to look-up word definitions, something that can happen during study of a verse.</td><td>C / C++ language was estimated because there were .c, .h., .l, and .y files in the root folder.</td></tr>
-
-<tr><td>a4-4</td><td>mpv</td><td><a href="https://salsa.debian.org/multimedia-team/mpv">link</a></td><td>watch videos with sermons, worship music, etc in terminal (i.e. Ubuntu server)</td><td>C/C++ was estimated based on the readme listing gcc and clang as dependencies multiple times.</td></tr> 
+<tr><td>a4-6</td><td>vim</td><td><a href="https://salsa.debian.org/vim-team/vim">link</a></td><td>review past bible source code, develop new code, enter/edit text for commentary, music lyrics, etc.</td><td>C / C++ language was estimated from a bunch of *.c files in the src folder.</td></tr>
 
 
-<tr><td>a4-4</td><td>fim</td><td><a href="https://salsa.debian.org/debian/fim">link</a></td>
+	<tr><td>a4-6</td><td>ncurses</td><td><a href="https://salsa.debian.org/debian/ncurses">link</a></td><td>Simple (terminal) user interfaces for bible programs prior to attempting more advanced user interfaces. ncurses API's to matche cordova might coordinate the user interfaces some more.</td><td>C / C++ language was estimated for ncurses because there was a folder named c++, .h files in the include folder, and more .c and .h files in the ncurses folder.</td></tr>
+
+	<tr><td>a4-6</td><td>dictd</td><td><a href="https://salsa.debian.org/debian/dictd">link</a></td><td>An option to look-up word definitions, something that can happen during study of a verse.</td><td>C / C++ language was estimated because there were .c, .h., .l, and .y files in the root folder.</td></tr>
+
+<tr><td>a4-6</td><td>mpv</td><td><a href="https://salsa.debian.org/multimedia-team/mpv">link</a></td><td>watch videos with sermons, worship music, etc in terminal (i.e. Ubuntu server)</td><td>C/C++ was estimated based on the readme listing gcc and clang as dependencies multiple times.</td></tr> 
+
+
+<tr><td>a4-6</td><td>fim</td><td><a href="https://salsa.debian.org/debian/fim">link</a></td>
 <td>review images prior to including in church presentation like room configuration, dismissal plan, coloring sheet, etc</td><td>C/C++ was estimated in the program because the src folder had .h and .cpp files.</td></tr>
 
-<tr><td>a4-4</td><td>ghostscript</td><td><a href="https://salsa.debian.org/printing-team/ghostscript">link</a></td>
+<tr><td>a4-6</td><td>ghostscript</td><td><a href="https://salsa.debian.org/printing-team/ghostscript">link</a></td>
 <td>read pdf files in a terminal (Ubuntu server) like church newsletter</td><td>C/C++ was estimated to be present since the base folder had a lot of .h and .c files. Also, did not observe a README.md</td></tr>
 
 
-<tr><td>a4-4</td><td>kea-dhcp4-server</td><td><a href="https://salsa.debian.org/debian/isc-kea">link</a></td>
+<tr><td>a4-6</td><td>kea-dhcp4-server</td><td><a href="https://salsa.debian.org/debian/isc-kea">link</a></td>
 <td>Help scriptures circulate around internet where there are DHCP link connections.</td><td>C/C++ was estimated to exist by a spot check of the src/lib/dns folder which had a bunch of .h and .cc files.</td></tr>
 
-<tr><td>a4-4</td><td>hostapd (wpa)</td><td><a href="https://salsa.debian.org/debian/wpa.git">link</a></td>
+<tr><td>a4-6</td><td>hostapd (wpa)</td><td><a href="https://salsa.debian.org/debian/wpa.git">link</a></td>
 <td>help scriptures transmit over wifi's</td><td>C/C++ was assumed to exist based on a spot check of the src/comment folder which had a bunch of .h and .c files</td></tr>
 
-<tr><td>a4-4</td><td>pocketsphinx</td><td><a href="https://github.com/cmusphinx/pocketsphinx">link</a></td><td>convert voice on video to text in a file for commentary</td><td>C/C++ was assumed to exist because the src folder had .h and .c files</td></tr>
+<tr><td>a4-6</td><td>pocketsphinx</td><td><a href="https://github.com/cmusphinx/pocketsphinx">link</a></td><td>convert voice on video to text in a file for commentary</td><td>C/C++ was assumed to exist because the src folder had .h and .c files</td></tr>
 
 
 <tr><td>a1-3</td><td>translate-shell</td><td><a href="https://git.savannah.gnu.org/cgit/gawk.git/tree/">gawk</a></td><td>translate scriptures from one language to another</td><td>translate-shell was thought to be built on awk/gawk, and in turn, gawk had C/C++ based on the root folder containing .h, .c, and .y files</td></tr>
 
+<tr><td>a4-6</td><td>aspell</td><td><a href="https://github.com/GNUAspell/aspell">gawk</a></td><td>spell checker to minimize accidental typos</td><td>C/C++ was estimated to exist since the Makefile.am listed a bunch of .cpp sources.</td></tr>
 
 </table>
 
