@@ -13,6 +13,7 @@ Pieces of documents that might not exist yet on the CrossWire wiki:
 - [acromyms](https://sword-2.github.io/sword-wiki/1a\_initial/8c_acronyms/8c.html)
 - [memory safety/threat](https://sword-2.github.io/sword-wiki/1b\_dev/02\_threat\_sum/02.html)
 - [performance parameters](https://sword-2.github.io/sword-wiki/1b\_dev/05\_dev\_KPPs/05.html)
+- [troubleshooting](https://sword-2.github.io/sword-wiki/CDE/CC-CS/troubleshooting/troubleshooting.html)
 
 Source code analysis for selected files to recognize and define computational problems
 - [xml2gbs](https://sword-2.github.io/sword-wiki/CDE/CP-Computational\_Problems/utilities/xml2gbs)
@@ -23,5 +24,4 @@ Data and Analysis (DA) for some existing models of SWORD modules
 
 
 ## Disclaimer
-The repo may contain some filing concepts observed from the local Caesar (Government). The bible information intends to distribute as much a possible with a lot of the control being just preserving scripture, word definitions, and teachings. Thus the purpose of bible distribution may be different than the purpose of the filing system.
-
+The repo may contain some filing concepts observed from the local Caesar (Government). The repo's bible/software purpose may vary from the the purposes of the filing system(s). Existing filing systems (Caesar) were considered since there was no reason to make new ones.
