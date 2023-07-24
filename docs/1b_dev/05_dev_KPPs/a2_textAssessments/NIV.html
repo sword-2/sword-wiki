@@ -10,7 +10,7 @@
 <!--
 <a href="javascript:reloadAudioTag(btPt7, document.getElementById('audioPlayer'))">1 John 2:16 (test 7)</a>
 -->
-<a href="javascript:reloadAudioTag(btPt7, 00:48:05, 00:49:32, document.getElementById('audioPlayer'))">1 John 2:16 (test 7)</a>
+<a href="javascript:reloadAudioTag(btPt7, '00:48:05', '00:49:32', document.getElementById('audioPlayer'))">1 John 2:16 (test 8)</a>
 
 <script>
 //var btPt7='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/64b8236b0059420655fe1df5/1689789322219/2023-07-16.mp3/original/2023-07-16.mp3#t=00:48:05,00:49:32';
@@ -45,6 +45,7 @@ function reloadAudioTag(path, timeStart, timeEnd, player, holder) {
         document.body.appendChild(player);
     }
     source.src = path + '#t=' + timeStart + ',' + timeEnd;
+	console.log("set source.src to: " + source.src);
     player.load();
     return player;
 }
