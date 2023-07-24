@@ -7,12 +7,15 @@
 	<source type="audio/mpeg" src="http://www.google.com/4/0/4" />
 </audio>
 
-
-<a href="javascript:reloadAudioTag(btPt7, document.getElementById('audioPlayer'))">test 6</a>
+<!--
+<a href="javascript:reloadAudioTag(btPt7, document.getElementById('audioPlayer'))">1 John 2:16 (test 7)</a>
+-->
+<a href="javascript:reloadAudioTag(btPt7, 00:48:05, 00:49:32, document.getElementById('audioPlayer'))">1 John 2:16 (test 7)</a>
 
 <script>
-var btPt7='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/64b8236b0059420655fe1df5/1689789322219/2023-07-16.mp3/original/2023-07-16.mp3#t=00:47:59',
-	urlOne = 'http://www.tonycuffe.com/mp3/tail%20toddle.mp3',
+//var btPt7='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/64b8236b0059420655fe1df5/1689789322219/2023-07-16.mp3/original/2023-07-16.mp3#t=00:48:05,00:49:32';
+var btPt7='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/64b8236b0059420655fe1df5/1689789322219/2023-07-16.mp3/original/2023-07-16.mp3';
+urlOne = 'http://www.tonycuffe.com/mp3/tail%20toddle.mp3',
 	urlTwo = 'http://freeplaymusic.com/search/download_file.php?id=4&amp;dur=0&amp;type=mp3';
 
 function attrs(element, attributes) {
@@ -21,6 +24,32 @@ function attrs(element, attributes) {
     }
 }
 
+
+function reloadAudioTag(path, timeStart, timeEnd, player, holder) {
+    if (player) player.parentNode.removeChild(player);
+
+    var player = document.createElement('audio'),
+        source = document.createElement('source');
+
+    source.type = "audio/mpeg"
+    attrs(player, {
+        "width": "300px",
+            "controls": "controls",
+            "autoplay": "autoplay",
+            "id": 'audioPlayer'
+    });
+    player.appendChild(source);
+    if (holder) {
+        holder.insertBefore(player, holder.childNodes[0]);
+    } else {
+        document.body.appendChild(player);
+    }
+    source.src = path + '#t=' + timeStart + ',' + timeEnd;
+    player.load();
+    return player;
+}
+
+/* Original code
 function reloadAudioTag(path, player, holder) {
     if (player) player.parentNode.removeChild(player);
 
@@ -44,7 +73,7 @@ function reloadAudioTag(path, player, holder) {
     player.load();
     return player;
 }
-
+*/
 /* Original code
 console.log("called!");
 reloadAudioTag(urlOne, document.getElementById("audioPlayer"));
