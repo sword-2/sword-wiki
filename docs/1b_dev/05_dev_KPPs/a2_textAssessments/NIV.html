@@ -1,8 +1,59 @@
 
 <html><head>
-<title>NIV - test</title>
+<title>Under construction - NIV</title>
 </head><body>
-<p>The following link is test 5 trying to jump to a time stamp in an audio</p>
-<audio id="audio2" controls preload="auto" src="https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/64b8236b0059420655fe1df5/1689789322219/2023-07-16.mp3/original/2023-07-16.mp3#t=00:47:59" oncanplaythrough="this.play();">
+<p>under constrution - investigating the js to have links go to a timestamp in audio file(s).</p><audio controls="controls" width="300px" id="audioPlayer">
+	<!-- load broken audio -->
+	<source type="audio/mpeg" src="http://www.google.com/4/0/4" />
 </audio>
+
+
+<a href="javascript:reloadAudioTag(btPt7, document.getElementById('audioPlayer'))">test 6</a>
+
+<script>
+var btPt7='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/64b8236b0059420655fe1df5/1689789322219/2023-07-16.mp3/original/2023-07-16.mp3#t=00:47:59',
+	urlOne = 'http://www.tonycuffe.com/mp3/tail%20toddle.mp3',
+	urlTwo = 'http://freeplaymusic.com/search/download_file.php?id=4&amp;dur=0&amp;type=mp3';
+
+function attrs(element, attributes) {
+    for (var prop in attributes) {
+        element.setAttribute(prop, attributes[prop]);
+    }
+}
+
+function reloadAudioTag(path, player, holder) {
+    if (player) player.parentNode.removeChild(player);
+
+    var player = document.createElement('audio'),
+        source = document.createElement('source');
+
+    source.type = "audio/mpeg"
+    attrs(player, {
+        "width": "300px",
+            "controls": "controls",
+            "autoplay": "autoplay",
+            "id": 'audioPlayer'
+    });
+    player.appendChild(source);
+    if (holder) {
+        holder.insertBefore(player, holder.childNodes[0]);
+    } else {
+        document.body.appendChild(player);
+    }
+    source.src = path;
+    player.load();
+    return player;
+}
+
+/* Original code
+console.log("called!");
+reloadAudioTag(urlOne, document.getElementById("audioPlayer"));
+console.log("Still going!");
+setTimeout(function () {
+    reloadAudioTag(urlTwo, document.getElementById("audioPlayer"));
+    console.log("Finished!");
+}, 5000);
+*/
+</script>
+
 </body></html>
