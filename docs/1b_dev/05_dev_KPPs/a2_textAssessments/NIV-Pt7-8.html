@@ -1,23 +1,56 @@
 
-<html><head>
-<style>
-
+<html><head><style>
+//id on audio player to position it in fixed place on screen
 #audioPlayer {
 	position:fixed;
 	bottom:0px;
 	right:0px;
 }
 
+//class for paragraph borders, where the border shows what an audio anchor/link was intended to say
 .border1 {
 	border-width:1px;
 	border-style:dotted;
 	border-color:#287EC7;
 }
 </style>
-<title>bible Translations part 7 and 8, 2023-07Jul-16, 23</title>
-</head>
+<script>
+//urls / uri's to audio for some of Brad's classes - bible translation parts 1 - to be determined
 
-<body><h2>Nev International Version (NIV)</h2>
+//part 1
+	var btPt1='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/6481bf79cafc431023b59af7/1686224781681/2023-06-04.mp3/original/2023-06-04.mp3'
+//part 2
+	var btPt2='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/6488ecc7bf0e294fe13547cc/1686695435677/2023-06-11.mp3/original/2023-06-11.mp3'
+
+//part 7
+	var btPt7='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/64b8236b0059420655fe1df5/1689789322219/2023-07-16.mp3/original/2023-07-16.mp3';
+//part 8
+	var btPt8='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/64beba240584a4065a41bc25/1690221132958/2023-07-23.mp3/original/2023-07-23.mp3';
+
+
+function bibleStudyAudio2(path, timeStart, timeEnd) {
+	var player = document.getElementById('audioPlayer');
+	var source = document.getElementById('audioSource');
+	source.src = path + '#t=' + timeStart + ',' + timeEnd;
+	player.load();
+	player.play();
+}
+
+</script>
+
+</head><body>
+<!--
+Audio tag. It goes with javascript ....
+
+An example anchor to run audio:
+<a href="javascript:bibleStudyAudio2(btPt7, '00:48:05', '00:49:32')">audio</a>
+-->
+
+<audio controls="controls" width="300px" id="audioPlayer">
+	<source id="audioSource" type="audio/mpeg" src="" />
+</audio>
+
+<h2>Nev International Version (NIV)</h2>
 
 <table border=1><caption>Table of contents</caption>
 <tr>
@@ -94,6 +127,11 @@
 </tr>
 
 </table>
+
+
+<title>bible Translations part 7 and 8, 2023-07Jul-16, 23</title>
+
+
 <h3 id="review1">Review 1</h3>
 
 <b>King James Version (KJV):</b>
@@ -469,6 +507,8 @@ Well that sounds almost exactly like the NASB which I put up earlier. It's very 
 Thank you so much for your word Lord, and thank you that we can study a variety of different passages that are so powerful and have such good application for us today. And yet we sometimes aren't sure about the best way to handle these verses, how to translate them, how to interpret them. Thank you that we have a variety of bible translation that we can look at and compare the verses to each other and try to arrive at the best understanding of them. So I pray you'd give us wisdom as we continue to evaluate bible translations. Help us to be able to hone in on the best ones and then help us Lord to be motivated to make regular use of them so that we can grow in our knowledge of you. In Jesus name. Amen.
 <a href="javascript:bibleStudyAudio2(btPt7, '49:32', '50:05')">audio</a>
 </p>
+
+
 <h3 id="review2">Review 2</h3>
 
 <p class="border1">
@@ -834,32 +874,6 @@ And that is one of the benefits on the NIV. It's just unfortunate that with all 
 Let's close in prayer. Thank you Lord for your word and thank you for different translations that we have available. But Lord we know that there is a push toward unbiblical concepts in our culture and these things have crept into some of our bible translations. So I pray you'd give us wisdom as we continue to evaluate, help us to be able to spot problems in the different translations that are out. We know there's no perfect translation. Help us to find and locate the best translations the ones that are the most accurate and the most helpful for us and to steer clear of the ones that are confusing and misleading and steering us away from good sound biblical teaching. So thank you Lord for your help in this area and continue to grant us wisdom. In Jesus name. Amen.
 <a href="javascript:bibleStudyAudio2(btPt8, '57:26', '58:06')">audio</a>
 </p>
-<!--
-Audio tag and javascript ....
 
-An example anchor to run audio:
-<a href="javascript:bibleStudyAudio2(btPt7, '00:48:05', '00:49:32')">audio</a>
--->
-
-
-<audio controls="controls" width="300px" id="audioPlayer">
-	<source id="audioSource" type="audio/mpeg" src="" />
-</audio>
-
-<script>
-//url to one of Brad's classes - bible translation part 7 (btPt7)
-var btPt7='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/64b8236b0059420655fe1df5/1689789322219/2023-07-16.mp3/original/2023-07-16.mp3';
-var btPt8='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/64beba240584a4065a41bc25/1690221132958/2023-07-23.mp3/original/2023-07-23.mp3';
-
-
-function bibleStudyAudio2(path, timeStart, timeEnd) {
-	var player = document.getElementById('audioPlayer');
-	var source = document.getElementById('audioSource');
-	source.src = path + '#t=' + timeStart + ',' + timeEnd;
-	player.load();
-	player.play();
-}
-
-</script>
 
 </body></html>
