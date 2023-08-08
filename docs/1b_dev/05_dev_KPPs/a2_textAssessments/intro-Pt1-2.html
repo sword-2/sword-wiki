@@ -19,6 +19,10 @@
 </style>
 
 </head><body>
+<!-- radio button is a debug option to check what start times are being sent when playing audio. -->
+<input type="radio" id="debug" name="group" value="sentOnSubmit">
+<label for="debug">debug Start Times for audio</label>
+
 <h2>Introduction part 1</h2>
 
 <p class="border1">
@@ -599,6 +603,7 @@ An example anchor to run audio:
 
 <audio controls="controls" width="300px" id="audioPlayer">
 	<source id="audioSource" type="audio/mpeg" src="" />
+	<p>The browser accessing the page doesn't support the element [audio element]. This message is from the fallback content in the audio element.</p>
 </audio>
 
 <script>
@@ -618,9 +623,28 @@ An example anchor to run audio:
 function bibleStudyAudio2(path, timeStart, timeEnd) {
 	var player = document.getElementById('audioPlayer');
 	var source = document.getElementById('audioSource');
-	source.src = path + '#t=' + timeStart + ',' + timeEnd;
+	//source.src = path + '#t=' + timeStart + ',' + timeEnd; //this method did not appear reliable, thus totalseconds guessed instead
+	source.src = path;
 	player.load();
 	player.play();
+	//alert("timeStart received=" + timeStart);
+	tt=timeStart.split(":");
+	let len = tt.length; //estimate quantity of digits (array length) for time.
+	//alert("len="+len);
+	var totalSec = 0;
+	var factor=1;
+	for (let l=len; l > 0; l--) {
+		//javascript array index starts at 0 so an offset was added.
+		//alert("in loop, totalSec=(" + totalSec + "), about to multiply tt[l-1]=(" + tt[l-1] + ") by factor=(" + factor + ").");
+		totalSec = totalSec + tt[l-1]*factor;
+		//alert("after multiply, now totalSec=" + totalSec);
+		factor=factor*60;
+	}
+	//print debug message only if radio button checked
+	if(document.getElementById('debug').checked) {
+		alert("The start time for the audio in HH:MM:SS = " + timeStart + ", and this same value in totalSeconds = " + totalSec);
+	}
+	player.currentTime = totalSec;
 }
 
 </script>
