@@ -2,7 +2,7 @@
 
 ## Comments
 
-The repo was preparation to help, enhance, or fill in some articles already started on [CrossWire developers' wiki](https://wiki.crosswire.org/Main_Page). The scope is mostly small pieces of code since the whole project had not been learned yet.
+The repo was preparation in case it can ever help, enhance, or fill in some articles already started on [CrossWire developers' wiki](https://wiki.crosswire.org/Main_Page). The SWORD project was relatively big since it involved tens of thousands of lines of code. This preparation also was part of trying to become oriented in the midst of the learning curve.
 
 
 Pieces of documents that might not exist yet on the CrossWire wiki:
@@ -23,4 +23,4 @@ Another group:
 
 
 ## Disclaimer
-The repo may contain some filing concepts observed from the local Caesar (Government). The repo's bible/software purpose may vary from the the purposes of the filing system(s). Existing filing systems (Caesar) were considered since there was no reason to make new ones.
+The repo may contain some filing concepts observed from the local Caesar (Government). The repo's bible/software purpose may vary of course from the original purpose of the filing system. There was no reason to make up new folders if something was already known.
