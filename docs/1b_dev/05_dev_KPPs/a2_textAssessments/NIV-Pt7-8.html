@@ -867,6 +867,8 @@ An example anchor to run audio:
 	var btPt1='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/6481bf79cafc431023b59af7/1686224781681/2023-06-04.mp3/original/2023-06-04.mp3'
 //part 2
 	var btPt2='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/6488ecc7bf0e294fe13547cc/1686695435677/2023-06-11.mp3/original/2023-06-11.mp3'
+//part 3
+	var btPt3='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/648f72862468a876973f7afa/1687122600366/2023-06-18.mp3/original/2023-06-18.mp3'
 
 //part 7
 	var btPt7='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/64b8236b0059420655fe1df5/1689789322219/2023-07-16.mp3/original/2023-07-16.mp3';
@@ -874,10 +876,12 @@ An example anchor to run audio:
 	var btPt8='https://static1.squarespace.com/static/5092a0fce4b08a6452e72fef/t/64beba240584a4065a41bc25/1690221132958/2023-07-23.mp3/original/2023-07-23.mp3';
 
 
+//uncertain the methods to goto an audio start time were reliable - tried 2 ways to enter a start time. Some blogs also reported perception of unreliablity
+//One blog claimed the server could have a part in all this, which would put it beyond the scope of the following browser JavaScript.
 function bibleStudyAudio2(path, timeStart, timeEnd) {
 	var player = document.getElementById('audioPlayer');
 	var source = document.getElementById('audioSource');
-	//source.src = path + '#t=' + timeStart + ',' + timeEnd; //this method did not appear reliable, thus totalseconds guessed instead
+	//source.src = path + '#t=' + timeStart + ',' + timeEnd; 
 	source.src = path;
 	player.load();
 	player.play();
